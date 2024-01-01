@@ -491,6 +491,8 @@ class FileHandler:
             print(f"Error: {e}. Failed to rename the file.")
             return None
 
+
+
     def delete_files(self, file_list, preview_only=True, prompt_each=True):
         # if preview_only:
         #     prompt_each = True  # Preview mode defaults to prompting for each file
@@ -534,6 +536,7 @@ class FileHandler:
             print(f"Error: {e}. Failed to move the file.")
             return False
 
+
     def delete_empty_subfolders(root_folder, preview_only=True, prompt_each=True, use_rmtree=False):
         """
         Delete empty subfolders within a root folder.
@@ -574,6 +577,10 @@ class FileHandler:
                 except Exception as e:
                     print(f"Error: {e}. Failed to delete folder '{folder_path}'")
 
+
+
+
+
     def write_metadata(self, et, metadata_dict, file, total_files, file_count, default_subprocess = True):
         global exiftool_path, exif_config_path
 
@@ -603,38 +610,74 @@ class FileHandler:
                     print(f"Error executing ExifTool command: {e}")
                     print(f"{f_warning}File {file_count} of {total_files} | {file} Can't be Updated{f_default}")
 
-    def move_files(self, source_path, destination_path, recursive=False):
-        try:
 
-            print(source_path)
-            print(os.path.isfile(source_path))
-            print(destination_path)
-            print(os.path.basename(destination_path))
+def move_files(source_path, destination_path, overwrite=False, backup=False):
+    """
+    Move files or directories from a source path to a destination path.
 
-            # If both source and destination are files, handle file move
-            if os.path.isfile(source_path):
-                
-                dest_folder = os.path.dirname(destination_path)
-                os.makedirs(dest_folder, exist_ok=True)
+    Args:
+    - source_path (str): The path of the file or directory to be moved.
+    - destination_path (str): The destination path where the file or directory will be moved.
+    - overwrite (bool, optional): If True, overwrite the destination file if it already exists. Defaults to False.
+    - backup (bool, optional): If True and overwrite is True, create a backup of the existing file before overwriting. Defaults to False.
 
-                dest_file_path = destination_path
-                if os.path.exists(dest_file_path):
-                    print(f"File '{os.path.basename(destination_path)}' already exists in destination. Renaming before moving.")
-                    name, ext = os.path.splitext(os.path.basename(destination_path))
-                    counter = 1
-                    while os.path.exists(dest_file_path):
-                        new_name = f"{name}_{counter}{ext}"
-                        dest_file_path = os.path.join(dest_folder, new_name)
-                        counter += 1
-                    print(f"File renamed to '{os.path.basename(dest_file_path)}'.")
+    Returns:
+    - bool: True if the move operation was successful, False otherwise.
 
-                shutil.move(source_path, dest_file_path)
-                print(f"File moved successfully to '{dest_file_path}'")
-                return True
+    Raises:
+    - OSError: If there's an error during the file moving process.
 
-        except Exception as e:
-            print(f"Error: {e}")
+    Notes:
+    - If the source_path is a directory, it moves all its contents to the destination directory.
+    - If overwrite is False and the destination file already exists, it won't be overwritten.
+    - If backup is True and overwrite is True, it creates a backup of the existing file before overwriting it.
+
+    # Example usage:
+    source_path = '/path/to/source'
+    destination_path = '/path/to/destination'
+
+    move_files(source_path, destination_path, overwrite=True, backup=True)
+       
+    """
+
+
+    try:
+        if not os.path.exists(source_path):
+            print(f"Source path '{source_path}' does not exist.")
             return False
+        
+        if os.path.isdir(source_path):
+            if os.path.isdir(destination_path):
+                destination_path = os.path.join(destination_path, os.path.basename(source_path))
+            
+            if not os.path.exists(destination_path):
+                os.makedirs(destination_path)
+            
+            for item in os.listdir(source_path):
+                source_item = os.path.join(source_path, item)
+                destination_item = os.path.join(destination_path, item)
+                move_files(source_item, destination_item, overwrite=overwrite, backup=backup)
+            
+            return True
+        
+        if os.path.exists(destination_path):
+            if not overwrite:
+                print(f"Destination path '{destination_path}' already exists. Use overwrite=True to replace.")
+                return False
+            
+            if backup:
+                backup_path = f"{destination_path}.bak"
+                if os.path.exists(backup_path):
+                    os.remove(backup_path)
+                shutil.move(destination_path, backup_path)
+        
+        shutil.move(source_path, destination_path)
+        print(f"File moved successfully: {source_path} -> {destination_path}")
+        return True
+    
+    except Exception as e:
+        print(f"Error: {e}")
+        return False
 
 def delete_empty_subfolders(root_folder, preview_only=True, prompt_each=True, use_rmtree=False):
     """

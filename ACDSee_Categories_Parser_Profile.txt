@@ -1,0 +1,23 @@
+{
+    "XMP:Collection2": ".*><Category Assigned=.\\d.>Collection<Category Assigned=.\\d.>[^<]+<\\/Category><Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:Collection3": ".*><Category Assigned=.\\d.>Collection<Category Assigned=.\\d.>[^<]+<\\/Category><Category Assigned=.\\d.>[^<]+<\\/Category><Category Assigned=.\\d.>([^<]+)<\\/Category><\\/Category>.*"
+    "XMP:DayNumber": ".*>Numbered Days<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:Month": ".*Dates<Category Assigned=.\\d.>\\d{4}-\\d{4}<Category Assigned=.\\d.>\\d{4}s<Category Assigned=.\\d.>\\d{4}<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:Year": ".*Dates<Category Assigned=.\\d.>\\d{4}-\\d{4}<Category Assigned=.\\d.>\\d{4}s<Category Assigned=.\\d.>(\\d{4})<.*",
+    "XMP:Decade": ".*Dates<Category Assigned=.\\d.>\\d{4}-\\d{4}<Category Assigned=.\\d.>(\\d{4}s)<.*",
+    "XMP:Century": ".*Dates<Category Assigned=.\\d.>(\\d{4}-\\d{4})<.*"
+    "XMP:MediaType": ".*>Media Type<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:GraphicType": ".*>Media Type<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:ShotOrientation": ".*>Orientation<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:ShotType": ".*>Shot Type<Category Assigned=.\\d.>([^<]+)<.*"
+    "XMP:LocationCreatedLocationName": ".*>Community<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:LocationCreatedCity": ".*>Community<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:LocationCreatedProvinceState": ".*>Country<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:LocationCreatedCountryName": ".*>Country<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:LocalityGeneral": ".*>Locality<Category Assigned=.\\d.>([^<]+).*",
+    "XMP:LocalityType": ".*>Locality<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:LocalitySpecific": ".*>Locality<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>([^<]+).*",
+}
+
+
+.*>Locality<Category Assigned=.\d.>([^<]+)<Category Assigned=.\d.>[^<]+<.*

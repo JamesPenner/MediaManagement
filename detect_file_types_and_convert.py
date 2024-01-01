@@ -1,7 +1,30 @@
 import os
-import magic
+# import magic
+import sys
 from enum import Enum
 import subprocess
+
+sys.path.append(r'C:\Media Management\Scripts')
+from config import exiftool_path, exif_config_path, ffmpeg_path, ImageMagick_path
+
+def _create_directory_if_not_exists(path):
+    try:
+        # Check if the path exists and is a directory
+        if os.path.isdir(path):
+            if not os.path.exists(path):
+                os.makedirs(path)
+                print(f"Created directory: {path}")
+            else:
+                print(f"Directory already exists: {path}")
+        else:  # If it's a file path, extract directory and create it if it doesn't exist
+            directory_path = os.path.dirname(path)
+            if not os.path.exists(directory_path):
+                os.makedirs(directory_path)
+                print(f"Created directory: {directory_path}")
+            else:
+                print(f"Directory already exists: {directory_path}")
+    except Exception as e:
+        print(f"Error: {e}. Failed to create the directory.")
 
 # Define file type categories as an enum
 class FileCategory(Enum):
@@ -19,20 +42,25 @@ class FileCategory(Enum):
 
 # Define conversion functions
 def convert_video_to_h264_mp4(source_path, target_path):
-    # Use ffmpeg to convert video
-    subprocess.run(["ffmpeg", "-i", source_path, "-c:v", "libx264", "-c:a", "aac", target_path])
+    _create_directory_if_not_exists(target_path)
+    # Use ffmpeg to convert video and include metadata transfer
+    subprocess.run([ffmpeg_path, "-i", source_path, "-c:v", "libx264", "-c:a", "aac", "-map_metadata", "0", target_path])
 
 def convert_image_to_jpg(source_path, target_path):
-    # Use ImageMagick to convert image
-    subprocess.run(["convert", "-quality", "95", source_path, target_path])
+    _create_directory_if_not_exists(target_path)
+    # Use ImageMagick to convert image and include metadata transfer
+    subprocess.run([ImageMagick_path, source_path, "-quality", "95", target_path])
+    # print(f"Converting {source_path} to {target_path}")
 
 def convert_document_to_pdf(source_path, target_path):
+    _create_directory_if_not_exists(target_path)
     # Use LibreOffice to convert document
     subprocess.run(["libreoffice", "--headless", "--convert-to", "pdf:writer_pdf_Export", source_path, "--outdir", os.path.dirname(target_path)])
 
 def convert_audio_to_3gp(source_path, target_path):
+    _create_directory_if_not_exists(target_path)
     # Use ffmpeg to convert audio
-    subprocess.run(["ffmpeg", "-i", source_path, "-c:a", "libfaac", "-b:a", "128k", target_path])
+    subprocess.run([ffmpeg_path, "-i", source_path, "-c:a", "libfaac", "-b:a", "128k", "-map_metadata", "0", target_path])
 
 # Define file type map with conversion functions
 file_type_map = {
@@ -49,7 +77,7 @@ file_type_map = {
 }
 
 # Initialize magic library for mimetype detection
-mime = magic.Magic(mime=True)
+# mime = magic.Magic(mime=True)
 
 def detect_file_type(filepath):
     """

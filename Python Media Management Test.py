@@ -29,6 +29,8 @@ error_log_file = r"C:\Media Management\test images"
 validation_log_dates = r"D:\0_Media-Archive\Validation_Log_Dates.csv"
 # validation_log_dates = r"C:\Media Management\test images\Validation_Log_Dates.csv"
 
+cameras = ["KODAK DC3200 DIGITAL CAMERA", "Canon PowerShot A200", "NIKON D50", "Canon PowerShot A640", "FinePix E510", "PENTAX Optio S6", "COOLPIX L11", "Canon PowerShot A540", "DSC-S40", "NIKON D80", "SP550UZ", "Canon EOS 20D", "COOLPIX P90", "Canon PowerShot A2000 IS", "NIKON D60", "DMC-TS1", "DMC-FZ18", "Canon VIXIA HG20", "NIKON D40X", "Canon EOS DIGITAL REBEL XSi", "uT8000,ST8000", "Canon EOS 7D", "NIKON D300", "NIKON D700", "Canon EOS DIGITAL REBEL XS", "iPod touch", "HDR-CX190", "Canon PowerShot ELPH 520 HS", "iPhone 4S", "GT-N8010", "MP280 series", "iPhone 3GS", "Tegra Camera", "iPhone 4", "Kidizoom camera", "Canon PowerShot SX600 HS", "Oregon 650", "iPhone 5s", "SM-G920W8", "iPhone 6", "NIKON D5300", "iPhone 8", "Pixel 3a", "SM-A530W", "iPhone 8 Plus", "iPhone SE (2nd generation)"]
+
 # use this to set colors on text output to the console
 def set_color(text_style, text_color, bacground_color):
     text_styles = {

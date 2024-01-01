@@ -1,15 +1,56 @@
+import re
+
 # START
 #############################################################
 # Lookup Tables #############################################
 #############################################################
 
-location_lookup = r"C:\Media Management\Scripts\Lookup Tables\Index_of_locations.csv"
+location_lookup = r"C:\Media Management\Scripts\Lookup Tables\Index_of_Locations.csv"
 people_lookup = r"C:\Media Management\Scripts\Lookup Tables\Index_of_people.csv"
 
 #############################################################
 # Lookup Tables #############################################
 #############################################################
 # END
+
+
+# START
+#############################################################
+# External Program Paths ####################################
+#############################################################
+
+exiftool_path = r"C:\Media Management\App\exiftool.exe"
+exif_config_path = r"C:\Media Management\App\FamilyArchive.config"
+ffmpeg_path = r"C:\Media Management\App\ffmpeg\bin\ffmpeg.exe"
+ImageMagick_path = r"C:\Media Management\App\ImageMagick\magick.exe"
+
+#############################################################
+# External Program Paths ####################################
+#############################################################
+# END
+
+
+
+# START
+#############################################################
+# File Renaming Patterns ####################################
+#############################################################
+
+rename_rules_for_archive = {
+    re.compile(r'^\s+|\s+$'): '',  # Remove leading and trailing spaces
+    re.compile(r'\s+'): ' ',  # Replace multiple spaces with a single space
+    re.compile(r'[^a-zA-Z0-9\s]+'): '',  # Remove non-alphanumeric characters except spaces
+    re.compile(r'[\s]+'): '-',  # Replace all spaces with hyphens
+    re.compile(r'[A-Z]'): lambda match: match.group(0).lower()  # Convert uppercase to lowercase
+    }
+
+#############################################################
+# File Renaming Patterns ####################################
+#############################################################
+# END
+
+
+
 
 
 # START
@@ -42,7 +83,10 @@ custom_date_related_fields = [
     "XMP:Season",
 ]
 
-Location_fields = ["IPTC:Country-PrimaryLocationName","XMP:Location","XMP:LocationCreatedLocationName","XMP:LocationCreatedSublocation","XMP:LocationShownLocationName","XMP:LocationShownSublocation"]
+family_names = ["Bailey","Barker","Blackstone","Boldt","Cann","Capezzuto","Carey","Chapman","del Valle","Dight","Enns","Foster","Glover","Greenwood","Hatherell","Heath","Hunter","Lemay","Loewen","Lowden","MacDonald","Mitchell","Norris","Penner","Pongracz","Rand","Skinner","Smith","Stibbe","Trott","Wardle","Winberg","Woods"]
+
+
+Location_fields = ["XMP:Location","XMP:LocationCreatedLocationName","XMP:LocationCreatedSublocation","XMP:LocationShownLocationName","XMP:LocationShownSublocation"]
 
 city_fields = ["IPTC:City","XMP:LocationCreatedCity","XMP:LocationShownCity","XMP:City"]
 
@@ -50,11 +94,15 @@ state_fields = ["IPTC:Province-State","XMP:LocationCreatedProvinceState","XMP:Lo
 
 country_fields = ["XMP:Country","XMP:LocationCreatedCountryName","XMP:LocationShownCountryName"]
 
-country_code_fields = ["IPTC:Country-PrimaryLocationCode","XMP:CountryCode","XMP:LocationCreatedCountryCode","XMP:LocationShownCountryCode"]
+# country_code_fields = ["IPTC:Country-PrimaryLocationCode","XMP:CountryCode","XMP:LocationCreatedCountryCode","XMP:LocationShownCountryCode"]
+country_code_fields = ["XMP:CountryCode","XMP:LocationCreatedCountryCode","XMP:LocationShownCountryCode"]
 
-gps_fields = ["EXIF:GPSLatitude","EXIF:GPSLatitudeRef","EXIF:GPSLongitude","EXIF:GPSLongitudeRef","GPS:GPSLatitude","GPS:GPSLongitude","XMP:GPSLatitude","XMP:GPSLongitude"]
+gps_fields = ["EXIF:GPSLatitude","EXIF:GPSLatitudeRef","EXIF:GPSLongitude","EXIF:GPSLongitudeRef"]
+# gps_fields = ["EXIF:GPSLatitude","EXIF:GPSLatitudeRef","EXIF:GPSLongitude","EXIF:GPSLongitudeRef","GPS:GPSLatitude","GPS:GPSLongitude","XMP:GPSLatitude","XMP:GPSLongitude"]
 
-locality_fields = ["XMP:LocalityGeneral","XMP:LocalitySpecific","XMP:LocalityType",]
+locality_fields = ["XMP:LocalityGeneral","XMP:LocalitySpecific","XMP:LocalityType"]
+
+all_location_fields = Location_fields + city_fields + state_fields + country_code_fields + country_code_fields + gps_fields + locality_fields
 
 people_fields = ["XMP:RegionName"]
 
@@ -76,11 +124,21 @@ photo_to_video_fields = sourcefile + Location_fields + city_fields + state_field
 #############################################################
 
 filename_validation_rules = {
-    'path_name_length': (r'^.{2,250}$', 'File path must be between 2 and 250 characters.'),
-    'date_prefix': (r'^[12][\dx]{3}[01x][\dx][0-3x][\dx][cpem]$', 'Date must be YYYYMMDD/x.'),
-    'title': (r'^[a-z0-9-]+$', 'Title must be lower case and contain alphanumeric or hyphens only.'),
-    'guid': (r'^[0-9]{10}$', 'GUID must be a 10-digit number.'),
+    #  'File path must be between 2 and 250 characters.'
+    'path_name_length': re.compile(r'^.{2,250}$'),
+    #  'Date must be YYYYMMDD/x.'
+    'date_prefix': re.compile(r'^[12][\dx]{3}[01x][\dx][0-3x][\dx][cpem]$'),
+    # 'Title must be lower case and contain alphanumeric or hyphens only.',
+    'title': re.compile(r'^[a-z0-9-]+$'), 
+    #  'GUID must be a 10-digit number.'
+    'guid': re.compile(r'^[0-9]{10}$')
 }
+
+# This is how long the file name's title should be.
+asset_title_length = 80
+
+# This is how long the file name's unique ID should be
+guid_length = 10
 
 #############################################################
 # Set Validation Rules ######################################
@@ -95,32 +153,44 @@ filename_validation_rules = {
 #############################################################
 
 acdsee_parser = {
-    "XMP:Collection2": ".*><Category Assigned=.\\d.>Collection<Category Assigned=.\\d.>[^<]+<\\/Category><Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:Collection3": ".*><Category Assigned=.\\d.>Collection<Category Assigned=.\\d.>[^<]+<\\/Category><Category Assigned=.\\d.>[^<]+<\\/Category><Category Assigned=.\\d.>([^<]+)<\\/Category><\\/Category>.*",
-    "XMP:DayNumber": ".*>Numbered Days<Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:DayName": ".*>Named Days<Category Assigned=.\\d.>([^<]+)<.*",
 
+    "XMP:SetTitle01": r".*Collections<Category Assigned=.\d.>([^<]+)<.*",
+    "XMP:SetSubTitle01": r".*Collections<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*",
+    "XMP:SetTitle02": r".*Collections<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>[^<]+<\/Category><\/Category><Category Assigned=.\d.>([^<]+)<.*",
+    "XMP:SetSubTitle02": r".*Collections<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>[^<]+<\/Category><\/Category><Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*",
+    "XMP:SetTitle03": r"",
+    "XMP:SetSubTitle03": r"",
 
-    "XMP:Event01": ".*>Event<Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:BirthdayName": ".*>Birthday<Category Assigned=.\\d.>([^<]+)<.*",
-    
-    
-    
-    # "XMP:Event02": ".*>Named Days<Category Assigned=.\\d.>([^<]+)<.*",
-    # "XMP:Event03": ".*>Named Days<Category Assigned=.\\d.>([^<]+)<.*",
+# Event Patterns
 
-    "XMP:Month": ".*Dates<Category Assigned=.\\d.>\\d{4}-\\d{4}<Category Assigned=.\\d.>\\d{4}s<Category Assigned=.\\d.>\\d{4}<Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:Year": ".*Dates<Category Assigned=.\\d.>\\d{4}-\\d{4}<Category Assigned=.\\d.>\\d{4}s<Category Assigned=.\\d.>(\\d{4})<.*",
-    "XMP:Decade": ".*Dates<Category Assigned=.\\d.>\\d{4}-\\d{4}<Category Assigned=.\\d.>(\\d{4}s)<.*",
-    "XMP:Century": ".*Dates<Category Assigned=.\\d.>(\\d{4}-\\d{4})<.*",
-    "XMP:MediaType": ".*>Media Type<Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:GraphicType": ".*>Media Type<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:ShotOrientation": ".*>Orientation<Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:ShotType": ".*>Shot Type<Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:LocationCreatedLocationName": ".*>Community<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:LocationCreatedCity": ".*>Community<Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:LocationCreatedProvinceState": ".*>Country<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>([^<]+)<.*",
-    "XMP:LocationCreatedCountryName": ".*>Country<Category Assigned=.\\d.>[^<]+<Category Assigned=.\\d.>([^<]+)<.*",
+    "XMP:Event01": r".*>Event<Category Assigned=.\d.>([^<]+)<.*",
+    "XMP:BirthdayName": r".*>Birthday<Category Assigned=.\d.>([^<]+)<.*",
+    "XMP:HolidayName": r".*Holiday<Category Assigned=.\d.>([^<]+)<.*",
+    "XMP:SchoolGrade": r".*Grade<Category Assigned=.\d.>([^<]+)<.*",
+    "XMP:SchoolEvent": r".*School Event<Category Assigned=.\d.>([^<]+)<.*",
+
+# # Date Patterns
+#     "XMP:DayNumber": r".*>Numbered Days<Category Assigned=.\d.>([^<]+)<.*",
+#     "XMP:DayName": r".*>Named Days<Category Assigned=.\d.>([^<]+)<.*",
+#     "XMP:Month": r".*Dates<Category Assigned=.\d.>\d{4}-\d{4}<Category Assigned=.\d.>\d{4}s<Category Assigned=.\d.>\d{4}<Category Assigned=.\d.>([^<]+)<.*",
+#     "XMP:Year": r".*Dates<Category Assigned=.\d.>\d{4}-\d{4}<Category Assigned=.\d.>\d{4}s<Category Assigned=.\d.>(\d{4})<.*",
+#     "XMP:Decade": r".*Dates<Category Assigned=.\d.>\d{4}-\d{4}<Category Assigned=.\d.>(\d{4}s)<.*",
+#     "XMP:Century": r".*Dates<Category Assigned=.\d.>(\d{4}-\d{4})<.*",
+
+# # Media Type Patterns
+#     "XMP:MediaType": r".*>Media Type<Category Assigned=.\d.>([^<]+)<.*",
+#     "XMP:GraphicType": r".*>Media Type<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*",
+#     "XMP:ShotOrientation": r".*>Orientation<Category Assigned=.\d.>([^<]+)<.*",
+#     "XMP:ShotType": r".*>Shot Type<Category Assigned=.\d.>([^<]+)<.*",
+
+# # Location Patterns
+#     "XMP:LocationCreatedLocationName": r".*>Community<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*",
+#     "XMP:LocationCreatedCity": r".*>Community<Category Assigned=.\d.>([^<]+)<.*",
+#     "XMP:LocationCreatedProvinceState": r".*>Country<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*",
+#     "XMP:LocationCreatedCountryName": r".*>Country<Category Assigned=.\d.>([^<]+)<Category Assigned=.\d.>[^<]+<.*",
+#     "XMP:LocalityGeneral": r".*>Locality<Category Assigned=.\d.>([^<]+).*",
+#     "XMP:LocalityType": r".*>Locality<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*",
+#     "XMP:LocalitySpecific": r".*>Locality<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+).*",
 }
 
 #############################################################
@@ -134,6 +204,8 @@ acdsee_parser = {
 #############################################################
 # Set File Types by Extension ###############################
 #############################################################
+
+live_archive_file_extensions = ["3gp", "jpg", "mp4", "pdf"]
 
 audio_files = [
     "3gp", "aac", "ac3", "aif", "aiff", "alac", "amr", "ape", "au", 
@@ -151,6 +223,15 @@ document_files = [
     "template", "tex", "thmx", "tlx", "tpl", "txt", "wbk", "wpd", "xps", "xls", 
     "xlsx"
 ]
+
+
+archive_document_files = [
+    "csv", "doc", "docm", "docx", "dot", "dotm", "dotx", 
+    "odt", "ods", "oft", "pdf", "pptx", "rtf", "xls", 
+    "xlsx"
+]
+
+
 image_files = [
     "8bf", "ai", "arw", "bmp", "cdr", "cr2", "cr3", "cvs", "dds", 
     "dng", "ecw", "emf", "eps", "exr", "gif", "hdr", "heic", "heif", 
@@ -168,6 +249,8 @@ video_files = [
     "vob", "vro", "webm", "wlmp", "wmv", "xesc", "xfl", "xvid", "yt", 
     "ytf", "yuv"
 ]
+
+all_media_files = audio_files + archive_document_files + image_files + video_files
 
 #############################################################
 # Set File Types by Extension ###############################
@@ -223,9 +306,10 @@ def set_color(text_style, text_color, bacground_color):
     return ascii_color
 
 # Set ascii output colors
-f_warning = set_color("none", "red", "black")
-f_input = set_color("none", "yellow", "black")
-f_success = set_color("none", "green", "black")
+f_warning = set_color("default", "red", "black")
+f_input = set_color("default", "yellow", "black")
+f_success = set_color("default", "green", "black")
+f_info = set_color("default", "blue", "black")
 f_default = set_color("default", "white", "black")
 
 
@@ -233,3 +317,19 @@ f_default = set_color("default", "white", "black")
 # Set ANSII Color Codes #####################################
 #############################################################
 # EMD
+
+
+# START
+#############################################################
+# Set Archive Paths #########################################
+#############################################################
+
+archive_paths = {
+  "prep_path": "D:\\0_Media-Archive\\02_metadata-and-rename",
+  "prep_static_path": "D:\\0_Media-Archive\\02_metadata-and-rename\\static-archive",
+  "prep_live_path": "D:\\0_Media-Archive\\02_metadata-and-rename\\live-archive",
+}
+#############################################################
+# Set Archive Paths #########################################
+#############################################################
+# END
