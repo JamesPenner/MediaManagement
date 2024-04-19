@@ -7,11 +7,42 @@ import re
 
 location_lookup = r"C:\Media Management\Scripts\Lookup Tables\Index_of_Locations.csv"
 people_lookup = r"C:\Media Management\Scripts\Lookup Tables\Index_of_people.csv"
+keyword_lookup = r"C:\Media Management\Scripts\Lookup Tables\Index_of_Keywords.csv"
+
 
 #############################################################
 # Lookup Tables #############################################
 #############################################################
 # END
+
+digital_sourcetype_values = ["digitalcapture","negativefilm","positivefilm","print","minorhumanedits","compositecapture","algorithmicallyenhanced","datadrivenmedia","digitalart","virtualrecording","compositesynthetic","trainedalgorithmicmedia","compositewithtrainedalgorithmicmedia","algorithmicmedia"]
+
+cameras = ["KODAK DC3200 DIGITAL CAMERA", "Canon PowerShot A200", "NIKON D50", "Canon PowerShot A640", "FinePix E510", "PENTAX Optio S6", "COOLPIX L11", "Canon PowerShot A540", "DSC-S40", "NIKON D80", "SP550UZ", "Canon EOS 20D", "COOLPIX P90", "Canon PowerShot A2000 IS", "NIKON D60", "DMC-TS1", "DMC-FZ18", "Canon VIXIA HG20", "NIKON D40X", "Canon EOS DIGITAL REBEL XSi", "uT8000,ST8000", "Canon EOS 7D", "NIKON D300", "NIKON D700", "Canon EOS DIGITAL REBEL XS", "iPod touch", "HDR-CX190", "Canon PowerShot ELPH 520 HS", "iPhone 4S", "GT-N8010", "MP280 series", "iPhone 3GS", "Tegra Camera", "iPhone 4", "Kidizoom camera", "Canon PowerShot SX600 HS", "Oregon 650", "iPhone 5s", "SM-G920W8", "iPhone 6", "NIKON D5300", "iPhone 8", "Pixel 3a", "SM-A530W", "iPhone 8 Plus", "iPhone SE (2nd generation)"]
+
+print_sources = ["LS-5000","CanoScan LiDE 300","CanoScan 8600F","HP Scanjet djf4200","Adobe Illustrator CS2","Adobe Illustrator CS6 (Windows)","Adobe Photoshop 7.0","Adobe Photoshop Camera Raw 8.3 (Windows)","Adobe Photoshop Camera Raw 9.1.1 (Windows)","Adobe Photoshop CS2 Windows","Adobe Photoshop CS3 Windows","Adobe Photoshop CS5 Windows","Adobe Photoshop CS6 (Windows)","Adobe Photoshop Elements 3.0 Windows","Adobe Photoshop Lightroom 4.2 (Windows)","CanoScan Toolbox 5.0","Illustrator","Microsoft Photo Gallery 16.4.3528.331","Microsoft Windows Live Photo Gallery14.0.8081.709","Microsoft Windows Photo Gallery 6.0.6001.18000","Microsoft Windows Photo Viewer 10.0.14393.0","Microsoft Windows Photo Viewer 6.1.7600.16385","Microsoft Windows Photo Viewer 6.3.9600.17415","UMAX MagicScan","Windows Photo Editor 10.0.10011.16384"]
+
+
+
+# START
+#############################################################
+# Standard Metadata #########################################
+#############################################################
+
+standard_metadata = {
+    'XMP:CreatorCountry': 'Canada',
+    'XMP:CreatorRegion': 'British Columbia',
+    'XMP:CreatorWorkEmail': 'penner.james@gmail.com',
+    'XMP:ArchiveVersion': 2,
+    'XMP:Archived': True
+}
+
+
+#############################################################
+# Standard Metadata #########################################
+#############################################################
+# END
+
+
 
 
 # START
@@ -184,13 +215,13 @@ acdsee_parser = {
 #     "XMP:ShotType": r".*>Shot Type<Category Assigned=.\d.>([^<]+)<.*",
 
 # # Location Patterns
-#     "XMP:LocationCreatedLocationName": r".*>Community<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*",
-#     "XMP:LocationCreatedCity": r".*>Community<Category Assigned=.\d.>([^<]+)<.*",
-#     "XMP:LocationCreatedProvinceState": r".*>Country<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*",
-#     "XMP:LocationCreatedCountryName": r".*>Country<Category Assigned=.\d.>([^<]+)<Category Assigned=.\d.>[^<]+<.*",
-#     "XMP:LocalityGeneral": r".*>Locality<Category Assigned=.\d.>([^<]+).*",
-#     "XMP:LocalityType": r".*>Locality<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*",
-#     "XMP:LocalitySpecific": r".*>Locality<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+).*",
+    "XMP:LocationCreatedLocationName": re.compile(r".*>Community<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*"),
+    "XMP:LocationCreatedCity": re.compile(r".*>Community<Category Assigned=.\d.>([^<]+)<.*"),
+    "XMP:LocationCreatedProvinceState": re.compile(r".*>Country<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*"),
+    "XMP:LocationCreatedCountryName": re.compile(r".*>Country<Category Assigned=.\d.>([^<]+)<Category Assigned=.\d.>[^<]+<.*"),
+    "XMP:LocalityGeneral": re.compile(r".*>Locality<Category Assigned=.\d.>([^<]+).*"),
+    "XMP:LocalityType": re.compile(r".*>Locality<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+)<.*"),
+    "XMP:LocalitySpecific": re.compile(r".*>Locality<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>[^<]+<Category Assigned=.\d.>([^<]+).*"),
 }
 
 #############################################################
@@ -325,9 +356,11 @@ f_default = set_color("default", "white", "black")
 #############################################################
 
 archive_paths = {
+  "TEST_PATH": r"D:\0_Media-Archive\test-delete",
   "prep_path": "D:\\0_Media-Archive\\02_metadata-and-rename",
   "prep_static_path": "D:\\0_Media-Archive\\02_metadata-and-rename\\static-archive",
   "prep_live_path": "D:\\0_Media-Archive\\02_metadata-and-rename\\live-archive",
+  "live_archive_path": "D:\\0_Media-Archive\\03_archive\\live-archive\\Photos"
 }
 #############################################################
 # Set Archive Paths #########################################
