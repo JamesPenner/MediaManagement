@@ -20,5 +20,4 @@ regex_library = {
     "Username Validation (Alphanumeric)": r"^[a-zA-Z0-9_]+$",
     "Whitespace Removal": r"^\s+|\s+$",
     "Zip Code (US)": r"^\d{5}(?:[-\s]\d{4})?$",
-
 }
