@@ -167,22 +167,43 @@ class FileHandler:
 
 # List Filtering methods
 # ################################################################
-    def filter_files(self, file_list, extensions=None, min_size=None, max_size=None, regex_patterns=None, case_sensitive=True, date_after=None, date_before=None):
+    def filter_files(file_list, extensions=None, min_size=None, max_size=None, regex_patterns=None, case_sensitive=True, date_after=None, date_before=None, file_name_filter=None):
         """
-        Filter the provided file list based on specified criteria, including regex patterns, case sensitivity, and date range.
+        Filter the provided file list based on specified criteria, including regex patterns, case sensitivity, date range, and file name substring.
 
-        Args:
-        - file_list (list): List of file paths or file metadata.
-        - extensions (list, optional): A list of file extensions to filter the files. Defaults to None.
-        - min_size (int, optional): Minimum file size in bytes. Defaults to None.
-        - max_size (int, optional): Maximum file size in bytes. Defaults to None.
-        - regex_patterns (list, optional): A list of pre-compiled regex patterns to filter the files. Defaults to None.
-        - case_sensitive (bool, optional): If False, makes regex pattern matching case insensitive. Defaults to True.
-        - date_after (datetime, optional): Filter files modified on or after this date. Defaults to None.
-        - date_before (datetime, optional): Filter files modified on or before this date. Defaults to None.
+        Parameters:
+        -----------
+        file_list : list
+            List of file paths or file metadata.
+
+        extensions : list, optional
+            A list of file extensions to filter the files. Defaults to None.
+
+        min_size : int, optional
+            Minimum file size in bytes. Defaults to None.
+
+        max_size : int, optional
+            Maximum file size in bytes. Defaults to None.
+
+        regex_patterns : list, optional
+            A list of pre-compiled regex patterns to filter the files. Defaults to None.
+
+        case_sensitive : bool, optional
+            If False, makes regex pattern matching case insensitive. Defaults to True.
+
+        date_after : datetime, optional
+            Filter files modified on or after this date. Defaults to None.
+
+        date_before : datetime, optional
+            Filter files modified on or before this date. Defaults to None.
+
+        file_name_filter : str, optional
+            Substring to filter file names. Defaults to None.
 
         Returns:
-        - list: Filtered list of file paths or file metadata based on the specified criteria.
+        --------
+        list
+            Filtered list of file paths or file metadata based on the specified criteria.
         """
         flags = 0 if case_sensitive else re.IGNORECASE
         compiled_patterns = regex_patterns if regex_patterns else []
@@ -195,11 +216,12 @@ class FileHandler:
             file_modified_date = datetime.fromtimestamp(file_modified_time)
 
             if (not extensions or any(file_path.endswith(ext) for ext in extensions)) and \
-               (min_size is None or file_size >= min_size) and \
-               (max_size is None or file_size <= max_size) and \
-               (not compiled_patterns or any(pattern.search(file_path) for pattern in compiled_patterns)) and \
-               (date_after is None or file_modified_date >= date_after) and \
-               (date_before is None or file_modified_date <= date_before):
+            (min_size is None or file_size >= min_size) and \
+            (max_size is None or file_size <= max_size) and \
+            (not compiled_patterns or any(pattern.search(file_path) for pattern in compiled_patterns)) and \
+            (date_after is None or file_modified_date >= date_after) and \
+            (date_before is None or file_modified_date <= date_before) and \
+            (file_name_filter is None or (case_sensitive and file_name_filter in file_path) or (not case_sensitive and file_name_filter.lower() in file_path.lower())):
                 filtered_files.append(file_info)
 
         return filtered_files
@@ -378,6 +400,66 @@ class FileHandler:
 
         return file_info  # Return the collected file information dictionary
 
+    # def generate_exiftool_command(self, data_dict, file):
+    #     """
+    #     Generates an ExifTool command to modify metadata for a specified file.
+
+    #     This method utilizes global variables 'exiftool_path' and 'exif_config_path'
+    #     set externally to define the path to the ExifTool executable and its configuration.
+
+    #     Args:
+    #     data_dict (dict): A dictionary containing key-value pairs for metadata fields and values.
+    #     file (str): Path to the file for which metadata is to be modified.
+
+    #     Returns:
+    #     list: A list containing the ExifTool command and its parameters.
+
+    #     Example:
+    #         Instantiate the file handler
+    #         file_handler = FileHandler()
+            
+    #         Create Exiftool command
+    #         update = file_handler.generate_exiftool_command(acdsee_dict, file)
+            
+    #         Run SubProcess
+    #         subprocess.run(update, check=True)
+            
+    #         Print results to terminal
+    #         print(f"{f_success}File {file_count} of {total_files} | {f_success}{file} Updated by subprocess{f_default}")
+        
+    #     """
+
+        
+    #     global exiftool_path, exif_config_path
+        
+    #     # Initiate first part of the Exiftool command
+    #     commandp1 = [exiftool_path, "-config", exif_config_path]
+        
+    #     # Generate fields and values to update from dictionary
+    #     for field, value in data_dict.items():
+    #         commandp1.append(f'-{field}={value}')
+
+    #     # Initiate the second part of the Exiftool command
+    #     commandp2 = [    
+    #     "-m",
+    #     "-f",
+    #     "-use",
+    #     "mwg",
+    #     "-n",
+    #     "-overwrite_original",
+    #     "-sep",
+    #     ", ",
+    #     file
+    #     ]
+        
+    #     # Merge Exiftool Command parts
+    #     command = commandp1 + commandp2
+
+    #     return command
+
+
+
+
     def generate_exiftool_command(self, data_dict, file):
         """
         Generates an ExifTool command to modify metadata for a specified file.
@@ -411,14 +493,10 @@ class FileHandler:
         global exiftool_path, exif_config_path
         
         # Initiate first part of the Exiftool command
-        commandp1 = [exiftool_path, "-config", exif_config_path]
-        
-        # Generate fields and values to update from dictionary
-        for field, value in data_dict.items():
-            commandp1.append(f'-{field}={value}')
-
-        # Initiate the second part of the Exiftool command
-        commandp2 = [    
+        commandp1 = [
+        exiftool_path,
+        "-config",
+        exif_config_path,
         "-m",
         "-use",
         "mwg",
@@ -426,6 +504,14 @@ class FileHandler:
         "-overwrite_original",
         "-sep",
         ", ",
+                     ]
+        
+        # Generate fields and values to update from dictionary
+        for field, value in data_dict.items():
+            commandp1.append(f'-{field}={value}')
+
+        # Initiate the second part of the Exiftool command
+        commandp2 = [    
         file
         ]
         
@@ -433,6 +519,10 @@ class FileHandler:
         command = commandp1 + commandp2
 
         return command
+
+
+
+
 
     def regex_rename_strings(self, string_list, rename_patterns):
         """
@@ -574,34 +664,75 @@ class FileHandler:
                 except Exception as e:
                     print(f"Error: {e}. Failed to delete folder '{folder_path}'")
 
-    def write_metadata(self, et, metadata_dict, file, total_files, file_count, default_subprocess = True):
-        global exiftool_path, exif_config_path
+    # def write_metadata(self, et, metadata_dict, file, total_files=None, file_count=None, default_subprocess = True):
+    #     global exiftool_path, exif_config_path
 
-        if default_subprocess == True:
-            try:
-                update = self.generate_exiftool_command(metadata_dict, file)
-                subprocess.run(update, check=True)
-                print(f"File {file_count} of {total_files} | {f_success}{file}{f_info} Updated by subprocess{f_default}")
-                # print(update)
-            except subprocess.CalledProcessError as e:
-                print(f"Error executing ExifTool command: {e}")
-                print(f"{f_warning}File {file_count} of {total_files} | {file} Can't be Updated{f_default}")
+    #     if default_subprocess == True:
+    #         try:
+    #             update = self.generate_exiftool_command(metadata_dict, file)
+    #             subprocess.run(update, check=True)
 
-        else:
-            try:
+    #             if total_files is not None and file_count is not None:
+    #                 print(f"File {file_count} of {total_files} | {f_success}{file}{f_info} Updated by subprocess{f_default}")
+    #             else:
+    #                 print(f"{f_success}{file}{f_info} Updated by subprocess{f_default}")
+
+    #         except subprocess.CalledProcessError as e:
+    #             print(f"Error executing ExifTool command: {e}")
+    #             if total_files is not None and file_count is not None:
+    #                 print(f"{f_warning}File {file_count} of {total_files} | {file} Can't be Updated{f_default}")
+    #             else:
+    #                 print(f"{f_warning}{file} Can't be Updated{f_default}")
+
+    #     else:
+    #         try:
+    #             et.set_tags(file, metadata_dict)
+    #             if total_files is not None and file_count is not None:
+    #                 print(f"File {file_count} of {total_files} | {f_success}{file} Updated{f_default}")
+    #             else:
+    #                 print(f"{f_success}{file} Updated{f_default}")
+
+    #         except:
+    #             # Try again, run Exiftool as a subprocess
+    #             try:
+    #                 update = self.generate_exiftool_command(metadata_dict, file)
+    #                 subprocess.run(update, check=True)
+    #                 if total_files is not None and file_count is not None:
+    #                     print(f"File {file_count} of {total_files} | {f_success}{file}{f_info} Updated by subprocess{f_default}")
+    #                 else:
+    #                     print(f"{f_success}{file}{f_info} Updated by subprocess{f_default}")
+
+    #             except subprocess.CalledProcessError as e:
+    #                 print(f"Error executing ExifTool command: {e}")
+    #                 if total_files is not None and file_count is not None:
+    #                     print(f"{f_warning}File {file_count} of {total_files} | {file} Can't be Updated{f_default}")
+    #                 else:
+    #                     print(f"{f_warning}{file} Can't be Updated{f_default}")
+
+    def write_metadata(self, et, metadata_dict, file, total_files=None, file_count=None, default_subprocess=True):
+        try:
+            if default_subprocess:
+                command = self.generate_exiftool_command(metadata_dict, file)
+                subprocess.run(command, check=True)
+                update_msg = f"{f_success} Updated by subprocess" if total_files is None or file_count is None else f"File {file_count} of {total_files} | Updated by subprocess{f_default}"
+            else:
                 et.set_tags(file, metadata_dict)
-                print(f"File {file_count} of {total_files} | {f_success}{file} Updated{f_default}")
+                update_msg = f"{f_success} Updated" if total_files is None or file_count is None else f"File {file_count} of {total_files} | Updated{f_default}"
 
-            except:
-                # Try again, run Exiftool as a subprocess
-                try:
-                    update = self.generate_exiftool_command(metadata_dict, file)
-                    subprocess.run(update, check=True)
-                    print(f"File {file_count} of {total_files} | {f_success}{file}{f_info} Updated by subprocess{f_default}")
-                    # print(update)
-                except subprocess.CalledProcessError as e:
-                    print(f"Error executing ExifTool command: {e}")
-                    print(f"{f_warning}File {file_count} of {total_files} | {file} Can't be Updated{f_default}")
+            if total_files is not None and file_count is not None:
+                print(f"{update_msg}: {file}")
+            else:
+                print(f"{file}{update_msg}")
+
+        except subprocess.CalledProcessError as e:
+            print(f"{f_warning}Error executing ExifTool command: {e}{f_default}")
+            if total_files is not None and file_count is not None:
+                print(f"{f_warning}File {file_count} of {total_files} | {file} Can't be Updated{f_default}")
+            else:
+                print(f"{f_warning}{file} Can't be Updated{f_default}")
+
+
+
 
     def move_files(self, source_path, destination_path, recursive=False):
         try:
