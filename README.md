@@ -1,6 +1,6 @@
 # MediaManagement
 This is a personal project to help me learn Python and GitHub.<br>
-This codebase is intended for managing media files and metadata.<br><br>
+This codebase is intended for managing media files and metadata.<br>
 
 This project is in a very early draft stage. Many methods and functions will likely need to be modified, and the code will likely need refactoring.<br>
 
