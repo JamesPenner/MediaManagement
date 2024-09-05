@@ -1,11 +1,25 @@
 import os
 # import magic
+from wand.image import Image
 import sys
 from enum import Enum
 import subprocess
 
-sys.path.append(r'C:\Media Management\Scripts')
+sys.path.append(r'C:\Users\Windows\Dropbox\James\Python\01_Media Archive Scripts')
 from config import exiftool_path, exif_config_path, ffmpeg_path, ImageMagick_path
+
+
+def convert_ai_to_jpg(input_file, output_file):
+    try:
+        with Image(filename=input_file, resolution=300) as img:
+            img.format = 'jpeg'
+            img.save(filename=output_file)
+        print(f"Conversion successful: {output_file}")
+    except Exception as e:
+        print(f"Error during conversion: {e}")
+
+
+
 
 def _create_directory_if_not_exists(path):
     try:
@@ -46,11 +60,23 @@ def convert_video_to_h264_mp4(source_path, target_path):
     # Use ffmpeg to convert video and include metadata transfer
     subprocess.run([ffmpeg_path, "-i", source_path, "-c:v", "libx264", "-c:a", "aac", "-map_metadata", "0", target_path])
 
-def convert_image_to_jpg(source_path, target_path):
-    _create_directory_if_not_exists(target_path)
-    # Use ImageMagick to convert image and include metadata transfer
-    subprocess.run([ImageMagick_path, source_path, "-quality", "95", target_path])
-    # print(f"Converting {source_path} to {target_path}")
+def convert_image_to_jpg(source_path, target_path, ImageMagick_path="C:\\Media Management\\App\\ImageMagick\\magick.exe"):
+    _create_directory_if_not_exists(os.path.dirname(target_path))
+    
+    # Build the ImageMagick command
+    command = [ImageMagick_path, source_path, "-flatten", "-quality", "95", target_path]
+    
+    try:
+        # Run the command and capture output
+        result = subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        print(f"Converting {source_path} to {target_path} - Flattened")
+    except subprocess.CalledProcessError as e:
+        # Print error details
+        print(f"Error converting {source_path} to {target_path}")
+        print(f"Command: {' '.join(e.cmd)}")
+        print(f"Return code: {e.returncode}")
+        print(f"Output: {e.output.decode('utf-8')}")
+        print(f"Error output: {e.stderr.decode('utf-8')}")
 
 def convert_document_to_pdf(source_path, target_path):
     _create_directory_if_not_exists(target_path)
