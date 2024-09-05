@@ -1,7 +1,7 @@
 import os
 import sys
 import csv
-sys.path.append(r'C:\Media Management\Scripts')
+sys.path.append(r'C:\Users\Windows\Dropbox\James\Python\01_Media Archive Scripts')
 import exiftool
 from metadata_manager import Metadata_Manager
 from file_handler import FileHandler, delete_empty_subfolders
@@ -19,25 +19,44 @@ guid_count = 0
 
 search_folder = r'D:\0_Media-Archive\02_metadata-and-rename'
 
+def infer_path_type(path):
+    # Check if the path already exists
+    if os.path.exists(path):
+        return "directory" if os.path.isdir(path) else "file"
+
+    # Infer based on the presence of a file extension
+    if os.path.splitext(path)[1]:
+        return "file"
+    
+    # Infer based on trailing slash convention
+    if path.endswith(os.sep):
+        return "directory"
+
+    # Default assumption if no other clues are present (e.g., no extension, no slash)
+    return "directory"
 
 def _create_directory_if_not_exists(path):
     try:
-        # Check if the path exists and is a directory
-        if os.path.isdir(path):
+        path_type = infer_path_type(path)
+        
+        if path_type == "directory":
             if not os.path.exists(path):
                 os.makedirs(path)
                 print(f"Created directory: {path}")
             else:
                 print(f"Directory already exists: {path}")
-        else:  # If it's a file path, extract directory and create it if it doesn't exist
+        else:
+            # It's a file path, so create the parent directory if needed
             directory_path = os.path.dirname(path)
-            if not os.path.exists(directory_path):
+            if directory_path and not os.path.exists(directory_path):
                 os.makedirs(directory_path)
                 print(f"Created directory: {directory_path}")
             else:
                 print(f"Directory already exists: {directory_path}")
     except Exception as e:
         print(f"Error: {e}. Failed to create the directory.")
+
+
 
 def _get_asset_date(mm):
     # Find the asset Dates
@@ -175,7 +194,6 @@ def _count_folders_in_directory(folder_path):
     folder_count = len([f for f in os.listdir(folder_path) if os.path.isdir(os.path.join(folder_path, f))])
     return folder_count
 
-
 def write_dict_list_to_csv(dict_list, file_path):
     if not dict_list:
         print("Dictionary list is empty.")
@@ -194,7 +212,6 @@ def write_dict_list_to_csv(dict_list, file_path):
         for data in dict_list:
             writer.writerow(data)
 
-
 def get_list_of_files(search_folder, recursive, filter_extensions):
     # print(search_folder)
     # print(recursive)
@@ -203,7 +220,11 @@ def get_list_of_files(search_folder, recursive, filter_extensions):
     # Instantiate the FileHandler
     file_handler = FileHandler()
 
-    return file_handler.retrieve_file_list(search_folder, recursive, filter_extensions)
+    # return file_handler.retrieve_file_list(search_folder, recursive, filter_extensions)
+    return file_handler.retrieve_file_list(search_folder, recursive=True, filter_extensions=all_media_files)
+
+
+    
 
 def prep_static_files_for_archive():
     
@@ -211,12 +232,16 @@ def prep_static_files_for_archive():
     metadata_update = {}
 
     # get list of static files in prepfiles
-    static_file_list = get_list_of_files(archive_paths["prep_path"], recursive=True, filter_extensions = all_media_files)
+    static_file_list = get_list_of_files(archive_paths["prep_static_path"], recursive=True, filter_extensions = all_media_files)
     # static_file_list = get_list_of_files(search_folder, recursive=True, filter_extensions = all_media_files)
 
-    # Create the live-archive and static-archive prep folders
+     # Create the live-archive and static-archive prep folders
     _create_directory_if_not_exists(archive_paths["prep_live_path"])
+    print(f"prep_live_path: {archive_paths["prep_live_path"]}")
+
     _create_directory_if_not_exists(archive_paths["prep_static_path"])
+    print(f"prep_static_path: {archive_paths["prep_static_path"]}")
+
 
     # Get the base guid for file renaming. The base guid is the 
     base_guid = _get_highest_unique_identifier(r'D:\0_Media-Archive\03_archive\live-archive', live_archive_file_extensions) + 1
@@ -252,7 +277,7 @@ def prep_static_files_for_archive():
             metadata_update['XMP:Headline'] = headline
             metadata_update['IPTC:Headline'] = headline
             metadata_update['XMP:Title'] = title
-            metadata_update['IPTC:Title'] = title
+            # metadata_update['IPTC:Title'] = title
             metadata_update['XMP:AssetDate'] = asset_date
             metadata_update['ExifIFD:ImageUniqueID'] = guid
             metadata_update['XMP:ImageUniqueID'] = guid
@@ -315,8 +340,6 @@ def prep_static_files_for_archive():
 
         # Delete empty folders in prep folder
         delete_empty_subfolders(archive_paths["prep_path"], preview_only=False, prompt_each=False, use_rmtree=False)
-
-
 
 def convert_media_no_name_change():
     
@@ -390,7 +413,6 @@ def convert_media_no_name_change():
                 convert_video_to_h264_mp4(file, converted_file_name)
 
                 print('\n\n')
-
 
 def embed_and_archive():
     
@@ -513,9 +535,6 @@ def embed_and_archive():
             #####################################################
             file_handler.write_metadata(et, metadata_update, file, total_files, file_count, default_subprocess=True)
 
-
-            
-
 def update_location_metadata_based_on_acdsee_categories():
     
     # get list of static files in live-archive folder
@@ -549,7 +568,6 @@ def update_location_metadata_based_on_acdsee_categories():
                 # print(acdsee_location)
 
                 file_handler.write_metadata(et, acdsee_location, file, total_files, file_count, default_subprocess = True)
-
 
 def report_acdsee_location_information():
     
@@ -588,10 +606,6 @@ def report_acdsee_location_information():
 
         write_dict_list_to_csv(ACDSee_Locations, report_location)
 
-
-
-
-
 def embed_and_archive_menu():
 
     if (live_prep_file_count > 0 and static_prep_file_count > 0) and (live_prep_file_count == static_prep_file_count) and prep_file_count == 0 and prep_folder_count == 2:
@@ -608,29 +622,6 @@ def embed_and_archive_menu():
         else:
             exit()
 
-# convert_media_no_name_change()
-
-'''
-- Source files for Static Archive should be in their own folders. 
-- The folder name will be name used for the file's Headline and Title metadata
-- prep_static_files_for_archive takes these files, renames them and creates a Live Archive version of them with standardized file formats
-'''
-
-# This is what I'm working on
-embed_and_archive()
-
-# update_location_metadata_based_on_acdsee_categories()
-
-
-
-
-
-
-
-# WORKING:
-# report_acdsee_location_information()
-
-
 
 
 
@@ -641,17 +632,5 @@ prep_file_count = _count_files_in_directory(archive_paths["prep_path"])
 prep_folder_count = _count_folders_in_directory(archive_paths["prep_path"])
 
 
-# if prep_folder_count == 0 and prep_file_count == 0:
-#     print(f"There are no files to process in {archive_paths["prep_path"]}. Exiting")
-#     exit()
-
-
-# if prep_folder_count > 0:
-#     process_files = input(f"{f_default}\n\n{f_input}Step 1: Rename and sort files in {archive_paths["prep_path"]}? (Y\\N) {f_default}")
-
-#     if process_files.lower() == "y":
-#         # # Standardize file names, generate Live Archive
-#         # prep_static_files_for_archive()
-#         embed_and_archive_menu()
-#     else:
-#         embed_and_archive_menu()
+# 01 prep_static_files_for_archive()
+prep_static_files_for_archive()
