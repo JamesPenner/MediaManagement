@@ -1,0 +1,696 @@
+﻿Location,City,State,Country,CountryCode,Locality,LocalityGeneral,LocalitySpecific,LocalityType,GPSAltitude,GPSAltitudeRef,GPSDestBearing,GPSDestBearingRef,GPSDOP,GPSHPositioningError,GPSImgDirection,GPSImgDirectionRef,GPSLatitude,GPSLatitudeRef,GPSLongitude,GPSLongitudeRef,GPSMapDatum,GPSProcessingMethod,GPSSpeed,GPSSpeedRef,GPSTimeStamp,GPSVersionID,Threshold,Show on Map
+-,Bridgwater,Southwest England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.13,N,-3,W,-,-,-,-,-,-,5000,Show on Map
+-,Bristol,Southwest England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.48,N,-2.63,W,-,-,-,-,-,-,5000,Show on Map
+-,Chilliwack,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.17,N,-121.95,W,-,-,-,-,-,-,5000,Show on Map
+-,Vernon,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,50.27,N,-119.27,W,-,-,-,-,-,-,5000,Show on Map
+-,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.26,N,-123.11,W,-,-,-,-,-,-,5000,Show on Map
+-,Sonora Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,50.37,N,-125.24,W,-,-,-,-,-,-,5000,Show on Map
+-,Culross,Manitoba,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.71,N,-97.91,W,-,-,-,-,-,-,5000,Show on Map
+-,Mission,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.16,N,-122.28,W,-,-,-,-,-,-,5000,Show on Map
+-,New Westminster,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.21,N,-122.91,W,-,-,-,-,-,-,5000,Show on Map
+-,Thurston Bay,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,50.37,N,-125.32,W,-,-,-,-,-,-,5000,Show on Map
+-,Truro,Nova Scotia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,45.37,N,-63.3,W,-,-,-,-,-,-,5000,Show on Map
+-,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.83,N,-123.52,W,-,-,-,-,-,-,5000,Show on Map
+-,Squamish,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.7,N,-123.16,W,-,-,-,-,-,-,5000,Show on Map
+-,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.43,N,-123.36,W,-,-,-,-,-,-,5000,Show on Map
+-,Haida Gwaii,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,52.69,N,-131.89,W,-,-,-,-,-,-,5000,Show on Map
+-,Agassiz,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.23,N,-121.77,W,-,-,-,-,-,-,5000,Show on Map
+-,Crescent Beach,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.62,N,-119.66,W,-,-,-,-,-,-,5000,Show on Map
+-,Toronto,Ontario,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,43.65,N,-79.38,W,-,-,-,-,-,-,5000,Show on Map
+-,Biloxi,Mississippi,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,30.4,N,-88.89,W,-,-,-,-,-,-,5000,Show on Map
+-,Baldy Hughes,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,53.62,N,-122.94,W,-,-,-,-,-,-,5000,Show on Map
+-,West Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.33,N,-123.16,W,-,-,-,-,-,-,5000,Show on Map
+-,North Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.32,N,-123.07,W,-,-,-,-,-,-,5000,Show on Map
+-,Frank,Alberta,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.6,N,-114.41,W,-,-,-,-,-,-,5000,Show on Map
+-,Roosville,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49,N,-115.06,W,-,-,-,-,-,-,5000,Show on Map
+-,Fernie,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.5,N,-115.06,W,-,-,-,-,-,-,5000,Show on Map
+-,Eureka,Montana,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,48.88,N,-115.05,W,-,-,-,-,-,-,5000,Show on Map
+-,Ladysmith,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.99,N,-123.82,W,-,-,-,-,-,-,5000,Show on Map
+-,Burnaby,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.24,N,-122.97,W,-,-,-,-,-,-,5000,Show on Map
+-,Regina,Saskatchewan,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,50.45,N,-104.62,W,-,-,-,-,-,-,5000,Show on Map
+-,Moosejaw,Saskatchewan,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,50.4,N,-105.55,W,-,-,-,-,-,-,5000,Show on Map
+-,Lethbridge,Alberta,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.69,N,-112.83,W,-,-,-,-,-,-,5000,Show on Map
+-,Fort Steele,Alberta,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,53.6,N,-113.42,W,-,-,-,-,-,-,5000,Show on Map
+-,Duncan,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.78,N,-123.71,W,-,-,-,-,-,-,5000,Show on Map
+-,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.84,N,-124.52,W,-,-,-,-,-,-,5000,Show on Map
+-,Lake Louise,Alberta,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,51.42,N,-116.18,W,-,-,-,-,-,-,5000,Show on Map
+-,Cranmore,Alberta,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,51.09,N,-115.36,W,-,-,-,-,-,-,5000,Show on Map
+-,Texada Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.65,N,-124.37,W,-,-,-,-,-,-,5000,Show on Map
+-,Abbotsford,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.05,N,-122.33,W,-,-,-,-,-,-,5000,Show on Map
+-,Richmond,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.16,N,-123.14,W,-,-,-,-,-,-,5000,Show on Map
+-,Midwest City,Oklahoma,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,35.45,N,-97.4,W,-,-,-,-,-,-,5000,Show on Map
+-,Esquimalt,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.43,N,-123.41,W,-,-,-,-,-,-,5000,Show on Map
+-,Coleman,Alberta,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.64,N,-114.5,W,-,-,-,-,-,-,5000,Show on Map
+-,Osoyoos,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.03,N,-119.47,W,-,-,-,-,-,-,5000,Show on Map
+-,Alert Bay,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,50.58,N,-126.92,W,-,-,-,-,-,-,5000,Show on Map
+-,Port McNeill,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,50.59,N,-127.08,W,-,-,-,-,-,-,5000,Show on Map
+-,Campbell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,50.02,N,-125.24,W,-,-,-,-,-,-,5000,Show on Map
+-,Dartmouth,Nova Scotia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,44.68,N,-63.57,W,-,-,-,-,-,-,5000,Show on Map
+-,Hatzic,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.15,N,-122.26,W,-,-,-,-,-,-,5000,Show on Map
+-,Bella Coola,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,52.37,N,-126.76,W,-,-,-,-,-,-,5000,Show on Map
+-,Hell's Gate,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.78,N,-121.45,W,-,-,-,-,-,-,5000,Show on Map
+-,Barkerville,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,53.07,N,-121.52,W,-,-,-,-,-,-,5000,Show on Map
+-,Cobble Hill,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.68,N,-123.6,W,-,-,-,-,-,-,5000,Show on Map
+-,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.38,N,-123.73,W,-,-,-,-,-,-,5000,Show on Map
+-,Aldergrove,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.06,N,-122.49,W,-,-,-,-,-,-,5000,Show on Map
+-,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-31.43,S,152.91,E,-,-,-,-,-,-,5000,Show on Map
+-,Shawnigan Lake,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.65,N,-123.62,W,-,-,-,-,-,-,5000,Show on Map
+-,Kauai,Hawaii,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,22.05,N,-159.56,W,-,-,-,-,-,-,5000,Show on Map
+-,East Sooke,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.35,N,-123.66,W,-,-,-,-,-,-,5000,Show on Map
+-,Perth,Western Australia,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-31.96,S,115.86,E,-,-,-,-,-,-,5000,Show on Map
+-,Britannia Beach,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.63,N,-123.21,W,-,-,-,-,-,-,5000,Show on Map
+-,Coombs,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.3,N,-124.42,W,-,-,-,-,-,-,5000,Show on Map
+-,Mill Bay,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.65,N,-123.55,W,-,-,-,-,-,-,5000,Show on Map
+-,Galiano Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.94,N,-123.47,W,-,-,-,-,-,-,5000,Show on Map
+-,Parksville,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.32,N,-124.31,W,-,-,-,-,-,-,5000,Show on Map
+-,Comox,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.67,N,-124.93,W,-,-,-,-,-,-,5000,Show on Map
+-,Lake Cowichan,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.83,N,-124.06,W,-,-,-,-,-,-,5000,Show on Map
+-,Little River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,50.87,N,-119.58,W,-,-,-,-,-,-,5000,Show on Map
+-,Hamilton,Victoria,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-37.74,S,142.02,E,-,-,-,-,-,-,5000,Show on Map
+-,Tsawwassen,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49,N,-123.12,W,-,-,-,-,-,-,5000,Show on Map
+-,Surrey,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.19,N,-122.85,W,-,-,-,-,-,-,5000,Show on Map
+-,Port Alberni,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.23,N,-124.81,W,-,-,-,-,-,-,5000,Show on Map
+-,Ucluelet,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.94,N,-125.55,W,-,-,-,-,-,-,5000,Show on Map
+-,Tofino,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.15,N,-125.9,W,-,-,-,-,-,-,5000,Show on Map
+-,Chemainus,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.92,N,-123.72,W,-,-,-,-,-,-,5000,Show on Map
+-,Port Renfrew,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.55,N,-124.42,W,-,-,-,-,-,-,5000,Show on Map
+-,Noda,Chiba Prefecture,Japan,JPN,-,-,-,-,-,-,-,-,-,-,-,-,35.95,N,139.87,E,-,-,-,-,-,-,5000,Show on Map
+-,Asakusa,Tokyo,Japan,JPN,-,-,-,-,-,-,-,-,-,-,-,-,35.71,N,139.73,E,-,-,-,-,-,-,5000,Show on Map
+-,Fushimi-ku,Kyoto Prefecture,Japan,JPN,-,-,-,-,-,-,-,-,-,-,-,-,34.95,N,135.77,E,-,-,-,-,-,-,5000,Show on Map
+-,Kyoto,Kyoto Prefecture,Japan,JPN,-,-,-,-,-,-,-,-,-,-,-,-,35.02,N,135.76,E,-,-,-,-,-,-,5000,Show on Map
+-,Golden,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,51.3,N,-116.96,W,-,-,-,-,-,-,5000,Show on Map
+-,Errington,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.29,N,-124.37,W,-,-,-,-,-,-,5000,Show on Map
+-,Louisianaweg,Willemstad,Curacao,CUW,-,-,-,-,-,-,-,-,-,-,-,-,12.15,N,-68.95,W,-,-,-,-,-,-,5000,Show on Map
+-,San Juan,Puerto Rico,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,18.47,N,-66.12,W,-,-,-,-,-,-,5000,Show on Map
+-,Guanica,Puerto Rico,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,17.97,N,-66.91,W,-,-,-,-,-,-,5000,Show on Map
+-,Ponce,Puerto Rico,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,18.01,N,-66.61,W,-,-,-,-,-,-,5000,Show on Map
+-,Kelowna,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.89,N,-119.5,W,-,-,-,-,-,-,5000,Show on Map
+-,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-33.87,S,151.21,E,-,-,-,-,-,-,5000,Show on Map
+-,Denarau Island,Viti Levu,Fiji,FJI,-,-,-,-,-,-,-,-,-,-,-,-,-17.77,S,177.37,E,-,-,-,-,-,-,5000,Show on Map
+-,Airlie Beach,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-20.27,S,148.72,E,-,-,-,-,-,-,5000,Show on Map
+-,Blackheath,New South Wales,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-33.63,S,150.28,E,-,-,-,-,-,-,5000,Show on Map
+-,Katoomba,New South Wales,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-33.71,S,150.31,E,-,-,-,-,-,-,5000,Show on Map
+-,Jenolan Caves,New South Wales,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-33.82,S,150.02,E,-,-,-,-,-,-,5000,Show on Map
+-,Hamilton Island,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-20.35,S,148.96,E,-,-,-,-,-,-,5000,Show on Map
+-,Ballarat,Victoria,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-37.56,S,143.86,E,-,-,-,-,-,-,5000,Show on Map
+-,Fremantle,Western Australia,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-32.05,S,115.76,E,-,-,-,-,-,-,5000,Show on Map
+-,West Swan,Western Australia,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-31.85,S,115.98,E,-,-,-,-,-,-,5000,Show on Map
+-,Woodbridge,Western Australia,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-31.89,S,115.99,E,-,-,-,-,-,-,5000,Show on Map
+-,Nadi,Viti Levu,Fiji,FJI,-,-,-,-,-,-,-,-,-,-,-,-,-17.77,S,177.43,E,-,-,-,-,-,-,5000,Show on Map
+-,South Sea Island,Mamanuca Islands,Fiji,FJI,-,-,-,-,-,-,-,-,-,-,-,-,-17.69,S,177.31,E,-,-,-,-,-,-,5000,Show on Map
+-,Seattle,Washington,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,47.6,N,-122.33,W,-,-,-,-,-,-,5000,Show on Map
+-,Siem Reap,Siem Reap,Cambodia,KHM,-,-,-,-,-,-,-,-,-,-,-,-,13.36,N,103.86,E,-,-,-,-,-,-,5000,Show on Map
+-,Bangkok,Bangkok,Thailand,THA,-,-,-,-,-,-,-,-,-,-,-,-,13.75,N,100.49,E,-,-,-,-,-,-,5000,Show on Map
+-,Phnom Penh,Phnom Penh,Cambodia,KHM,-,-,-,-,-,-,-,-,-,-,-,-,11.57,N,104.92,E,-,-,-,-,-,-,5000,Show on Map
+-,Tha Ma Kham,Kanchanaburi Province,Thailand,THA,-,-,-,-,-,-,-,-,-,-,-,-,14.04,N,99.5,E,-,-,-,-,-,-,5000,Show on Map
+-,Damnoen Saduak District,Ratchaburi,Thailand,THA,-,-,-,-,-,-,-,-,-,-,-,-,13.57,N,99.96,E,-,-,-,-,-,-,5000,Show on Map
+-,Samut Songkhram,Bangkok,Thailand,THA,-,-,-,-,-,-,-,-,-,-,-,-,13.47,N,99.94,E,-,-,-,-,-,-,5000,Show on Map
+-,Ho Chi Minh City,Ho Chi Minh City,Vietnam,VNM,-,-,-,-,-,-,-,-,-,-,-,-,10.8,N,106.64,E,-,-,-,-,-,-,5000,Show on Map
+-,Mekong Delta,Mekong,Vietnam,VNM,-,-,-,-,-,-,-,-,-,-,-,-,49.97,N,8.05,E,-,-,-,-,-,-,5000,Show on Map
+-,Sidney,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.65,N,-123.4,W,-,-,-,-,-,-,5000,Show on Map
+-,Qualicum Bay,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.4,N,-124.61,W,-,-,-,-,-,-,5000,Show on Map
+-,Lund,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.98,N,-124.76,W,-,-,-,-,-,-,5000,Show on Map
+-,Gabriola Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.16,N,-123.81,W,-,-,-,-,-,-,5000,Show on Map
+-,Mayne Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.84,N,-123.29,W,-,-,-,-,-,-,5000,Show on Map
+-,BC Ferries,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.12,N,-123.08,W,-,-,-,-,-,-,5000,Show on Map
+-,Cultus Lake,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.06,N,-121.98,W,-,-,-,-,-,-,5000,Show on Map
+-,Yarrow,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.08,N,-122.06,W,-,-,-,-,-,-,5000,Show on Map
+-,Columbia Valley,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.01,N,-122.03,W,-,-,-,-,-,-,5000,Show on Map
+-,Dallas,Texas,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,-23.65,S,-46.51,W,-,-,-,-,-,-,5000,Show on Map
+-,Lake Cathie,New South Wales,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-31.55,S,152.85,E,-,-,-,-,-,-,5000,Show on Map
+-,Cairns,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.92,S,145.77,E,-,-,-,-,-,-,5000,Show on Map
+-,Kuranada,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.82,S,145.6,E,-,-,-,-,-,-,5000,Show on Map
+-,Rex Lookout,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.65,S,145.57,E,-,-,-,-,-,-,5000,Show on Map
+-,Mossman,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.46,S,145.37,E,-,-,-,-,-,-,5000,Show on Map
+-,Daintree Rainforest,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.17,S,145.42,E,-,-,-,-,-,-,5000,Show on Map
+-,Port Douglas,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.5,S,145.46,E,-,-,-,-,-,-,5000,Show on Map
+-,Melbourne,Victoria,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-37.81,S,144.96,E,-,-,-,-,-,-,5000,Show on Map
+-,Bittern,Victoria,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-38.34,S,145.18,E,-,-,-,-,-,-,5000,Show on Map
+-,Somersby,New South Wales,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-33.37,S,151.28,E,-,-,-,-,-,-,5000,Show on Map
+-,Wangetti,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.64,S,145.56,E,-,-,-,-,-,-,5000,Show on Map
+-,Crib Point,Victoria,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-38.37,S,145.2,E,-,-,-,-,-,-,5000,Show on Map
+-,Arthurs Seat,Victoria,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-38.35,S,144.95,E,-,-,-,-,-,-,5000,Show on Map
+-,Stony Point,Victoria,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-38.37,S,145.22,E,-,-,-,-,-,-,5000,Show on Map
+-,Qualicum Beach,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.35,N,-124.44,W,-,-,-,-,-,-,5000,Show on Map
+-,-,Victoria,Australia,AUS,-,Great Ocean Road,12 Apostles,Landmark,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,New South Wales,Australia,AUS,-,Blue Mountains,Jenolan Caves,Cave,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,Victoria,Australia,AUS,-,Grampians National Park,Mount William,Mountain,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,Victoria,Australia,AUS,-,Great Ocean Road,Bay of Islands,Landmark,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,Victoria,Australia,AUS,-,Great Ocean Road,London Bridge,Landmark,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,Victoria,Australia,AUS,-,Great Ocean Road,The Arch,Landmark,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,Victoria,Australia,AUS,-,Great Ocean Road,The Blowhole,Landmark,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,Victoria,Australia,AUS,-,Great Ocean Road,The Grotto,Landmark,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,Queensland,Australia,AUS,-,Captain Cook Highway,Wangetti Beach Gatz Balancing Rocks,Beach,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Shields Lake,Lake,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Crabapple Lake,Lake,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Sooke River,River,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Mystic Beach,Beach,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Horne Lake,Lake,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Horne Lake,Park,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Mount Survey,Mountain,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Cathedral Grove,Park,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Horne Lake,Cave,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Horne Lake,Mountain,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Mount Work,Mountain,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,China Beach,Beach,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Forbidden Plateau,Mountain,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Strathcona Park - Forbidden Plateau,Park,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Upana Caves,Cave,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Highway,Park Bridge,Highway 1,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Mount Albert Edward,Mountain,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Albert Edward,Mountain,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Mount Arrowsmith,Mountain,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Juan de Fuca Marine Trail,Trail,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Mount Heather,Mountain,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,Parksville,British Columbia,Canada,CAN,-,Vancouver Island,Little Qualicum Falls Park,Park,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Muir Creek,Creek,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Galloping Goose Trail,Trail,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,Powell River,British Columbia,Canada,CAN,-,West Coast,Desolation Sound,Sound,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,Navua,Fiji,FJI,-,Navua River,Nukusere Village,Village,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+-,-,British Columbia,Canada,CAN,-,Vancouver Island,Horne Lake,Lake,-,-,-,-,-,-,-,-,49.34619189,N,-124.7068338,W,-,-,-,-,-,-,500,Show on Map
+1001 Douglas Street [Sussex Building],Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42398023,N,-123.3644539,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+1006 Karen Crescent,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+114 Berkeley Avenue [Now 45878],Chilliwack,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+1229 Alan Road,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.48476649,N,-123.4077501,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+1233 West Cordova Street,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.29004116,N,-123.1212956,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+1285 Boulderpath Road,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.40538882,N,-123.5585654,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+1296 Boulderpath Road,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+16 Fairfax Road,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.54372207,N,-0.178397718,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+165 16th Street,Fernie,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+18 Golden Orchid Drive [Martinique Whitsunday],Airlie Beach,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-20.27180756,S,148.7208335,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+1810 Blanshard Street,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.43051757,N,-123.3623511,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+1810 Koksilah Road,Duncan,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.72967464,N,-123.6210698,W,-,-,-,-,-,-,50,Show on Map
+200 Columbia Valley Road,Columbia Valley,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.00712251,N,-122.0816231,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+210 3205 Wetherby Road,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.44866747,N,-123.339622,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+211 Margaret Avenue [Now 46235],Chilliwack,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+211 Reece Avenue [Now 45711],Chilliwack,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+2200 South Road - Gabriola Community Hall,Gabriola Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.13316895,N,-123.7547179,W,-,-,-,-,-,-,50,Show on Map
+2277 Pond Place,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.38593561,N,-123.7242186,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+245 Ontario Street,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.41837486,N,-123.3790585,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+2461 E 21st Avenue,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+2723 Peatt Road [Peter Zorn],Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.45180568,N,-123.4988058,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+28 Hartswood Road,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.49485202,N,-0.245630771,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+2820 Parkview Drive,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+2855 Sophia Street,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.25975644,N,-123.0986094,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+29 Reece Avenue [Now 45723 - Uncle Ernie's],Chilliwack,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+29 Woodstock Road,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.57143918,N,-0.198473283,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+2930 Prior Street,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.44380856,N,-123.3566433,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+"3255 Cook Street, Suite 110",Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+32909 Cherry Street,Mission,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+330 Damon Drive [Aunt Trish],Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.45872809,N,-123.4596616,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+3575 Dougan Drive [John Deveau's],Cobble Hill,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.68996354,N,-123.5845774,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+3783 Manitoba Avenue,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+38 Bolingbroke Road,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.50061001,N,-0.216992316,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+4000 Seymour Place,Victoria,British Columbia,Canada,CAN,-,-,-,-,27.95815296,0,157.5784447,T,-,65,157.5784447,T,48.45255556,N,-123.3698806,W,-,-,0,K,-,2 2 0 0,50,Show on Map
+4020 Grange Road,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46939758,N,-123.4073639,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+4022 Grange Road,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46959498,N,-123.4074014,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+4166 Fernwood Avenue,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+41924 Kirk Avenue,Yarrow,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.08273132,N,-122.0641539,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+44 Sutherland Avenue,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.52390802,N,-0.192650509,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+455 Phelps Avenue,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46465691,N,-123.4861174,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+4570 Wilkinson Road,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.49719815,N,-123.3952282,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+4597 Manson Avenue,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+46152 First Avenue,Chilliwack,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.16949306,N,-121.9420503,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+5 McDonald Avenue,Hamilton,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-37.72878012,S,142.0201188,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+530 Montrose Road,Mayne Island,British Columbia,Canada,CAN,-,-,-,-,57.18781006,0,-,-,-,-,277.3570248,M,48.8429648,N,-123.2789008,W,WGS-84,-,-,-,-,2 2 0 0,50,Show on Map
+538 Arbutus,Mayne Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+6092 Alington Road,Duncan,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+6363 Silverthorne Road,Chilliwack,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+6464 Golledge Road,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.38288329,N,-123.711462,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+"665 East 6th Avenue, Suite 316",Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+6762 Foreman Heights Drive,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+6845 Courtenay Street,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+7 Seventh Avenue,Perth,Western Australia,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.98113351,S,115.8828503,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+7 The Pinnacle,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.47061708,S,152.9219735,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+7085 Penticton,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.81656941,N,-124.5167537,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+715 Johnson Street,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+7206 Jordan Street,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.82865346,N,-124.5117608,W,-,-,-,-,-,-,50,Show on Map
+7214 Jordan Street,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.82865556,N,-124.5114028,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+7216 Kitchener,Burnaby,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.27145097,N,-122.9517156,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+8 Milne Street,Crib Point,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-38.36455918,S,145.2067953,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+855 Phoenix Street,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.4393104,N,-123.3967745,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+9 Woodstock Road,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.57144073,N,-0.198474721,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+90 Sutherland Avenue,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.52501826,N,-0.189701162,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+904 Old Esquimalt Road,Esquimalt,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.43324669,N,-123.400645,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+"924 Cook Street, Suite 203",Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42180331,N,-123.3547953,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+940 Blanshard Street,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42437004,N,-123.3633596,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+954 Burnside Road West,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46359269,N,-123.4077555,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+955 Humbolt Street,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.41788176,N,-123.3604011,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+986 Weaver Place,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42957697,N,-123.5283463,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+995 furber Road,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.4485287,N,-123.5127398,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+998 Thurlow Street,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.28256708,N,-123.1275961,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+"998 Thurlow Street, Suite 606",Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+998 Violet Avenue [Nana Kate's],Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46908636,N,-123.4068435,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Abandoned Deertrail Resort,Sooke,British Columbia,Canada,CAN,-,Vancouver Island,Sooke Potholes,River,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,500,Show on Map
+Adrena LINE Zipline Adventure Tours,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.39421967,N,-123.6278468,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+AirBnB,Melbourne,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-37.82662202,S,144.9568829,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Airport,Cairns,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.87639632,S,145.7533576,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Anacortes Ferry,Sidney,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.64263402,N,-123.398121,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Andrews Cabin at the Hole in the Wall,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Angkor Thom,Siem Reap,Siem Reap,Cambodia,KHM,-,-,-,-,-,0,-,-,-,-,-,-,13.44475317,N,103.856376,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Angkor Wat,Siem Reap,Siem Reap,Cambodia,KHM,-,-,-,-,-,0,-,-,-,-,-,-,13.42017778,N,103.8595963,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Artisans Angkor,Siem Reap,Siem Reap,Cambodia,KHM,-,-,-,-,-,0,-,-,-,-,-,-,13.35291959,N,103.8517427,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Atago Shrine,Noda,Chiba Prefecture,Japan,JPN,-,-,-,-,-,0,-,-,-,-,-,-,35.94926168,N,139.8619008,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Australian Reptile Park,Somersby,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.41760477,S,151.2777606,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Babbington Hill,East Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.33879356,N,-123.6693192,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Bago Vineyard and Maze,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.53772133,S,152.6870312,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Baldy Hughes Radar Station,Baldy Hughes,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Bamberton,Mill Bay,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.60509914,N,-123.5224038,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+BC Aviation Museum,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.64052319,N,-123.4210056,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Beach Acres,Parksville,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.56743163,N,-123.5468602,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Beacon Hill Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.41386377,N,-123.3615303,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Beaver Lake,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.51162934,N,-123.3872366,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Beckwith Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.48115917,N,-123.3738872,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Belmont Secondary School,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.43855059,N,-123.5108221,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ben Thanh Market,Ho Chi Minh City,Ho Chi Minh City,Vietnam,VNM,-,-,-,-,-,0,-,-,-,-,-,-,10.77264526,N,106.6979688,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Bennett Bay,Mayne Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.84671401,N,-123.2504761,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Billabong Koala and Wildlife Park,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.45853567,S,152.8199294,E,-,-,-,-,0,2 3 0 0,50,Show on Map
+Bilston Creek Farm,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.387508,N,-123.524331,W,-,-,-,-,-,-,50,Show on Map
+Blinkhorn Lake,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.38780058,N,-123.5759997,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Blubber Bay,Texada,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Bond Bond's Bakery,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42386454,N,-123.3627373,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Botanical Beach,Port Renfrew,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.52584947,N,-124.442364,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Breakwater,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.41393499,N,-123.3872366,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Bridge over the River Kwai,Tha Ma Kham,Kanchanaburi Province,Thailand,THA,-,-,-,-,-,0,-,-,-,-,-,-,14.04113086,N,99.50368881,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Bridgeport Station,Richmond,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.1950858,N,-123.1277419,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Britannia Mine Museum,Britannia Beach,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.62267989,N,-123.2038164,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+British Columbia Legislature,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42166803,N,-123.3683538,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Brittannia Mine Museum,Brittannia,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Broadway Mall,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-33.88344952,S,151.1945745,E,-,-,-,-,-,-,50,Show on Map
+Bruce Belchers Daintree River Cruises,Daintree Rainforest,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.26015994,S,145.3647473,E,-,-,-,-,-,-,50,Show on Map
+Bujinkan Honbu Dojo,Noda,Chiba Prefecture,Japan,JPN,-,-,-,-,-,0,-,-,-,-,-,-,35.94926168,N,139.8619008,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Butchart Gardens,Victoria,British Columbia,Canada,CAN,-,-,-,-,22.09259155,0,355.6089172,T,-,32.00483304,355.6089172,T,48.56506389,N,-123.4682083,W,-,-,0.032608278,K,-,2 2 0 0,50,Show on Map
+Butterfly Gardens,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.56443611,N,-123.4391639,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+"Butterfly World, Coombs",Coombs,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Cairns Esplanade,Cairns,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.90984351,S,145.7665828,E,-,-,-,-,-,-,50,Show on Map
+Caleb Pike,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.46923611,N,-123.4074139,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Calle Norzagaray,San Juan,Puerto Rico,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,18.47081709,N,-66.12391949,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Calle San Agustin,San Juan,Puerto Rico,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,18.46576759,N,-66.0900191,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Camosun College Landsdowne Campus,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.44811951,N,-123.3221769,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Campbell River Museum,Campbell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,50.01529562,N,-125.2361691,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Canadian Forces Base Chilliwack,Chilliwack,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Canadian Forces Base Clinton [CFB Clinton],Clinton,Ontario,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Capilano Suspension Bridge Park,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Castillo San Cristobal,San Juan,Puerto Rico,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,18.46576759,N,-66.0900191,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Castillo San Felipe del Morro,San Juan,Puerto Rico,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,18.47081709,N,-66.12391949,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Cathedral Grove,Port Alberni,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.56743163,N,-123.5468602,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Cattle Point,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.43822569,N,-123.294739,W,-,-,-,-,-,-,50,Show on Map
+Chancellor Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46488124,N,-123.4209198,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Cherries Breakfast Bistro,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.479671,N,-123.4113765,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Chilliwack Landing Leisure Centre,Chilliwack,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.16875037,N,-121.9662586,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+China Town,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42930734,N,-123.3684075,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Choeung Ek Genocidal Center,Phnom Penh,Phnom Penh,Cambodia,KHM,-,-,-,-,-,-,-,-,-,-,-,-,11.48465,N,104.9021806,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Christmas Hill,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.47360411,N,-123.3770657,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+"Church of Assumption, Powell River",Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+City Hall,Ho Chi Minh City,Ho Chi Minh City,Vietnam,VNM,-,-,-,-,-,0,-,-,-,-,-,-,10.77755675,N,106.7027754,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Clover Point,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.40393583,N,-123.3495569,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Coal Harbour,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.28989421,N,-123.118608,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Cook Street Village,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.41515088,N,-123.3562731,W,-,-,-,-,-,-,50,Show on Map
+Coombs Market,Coombs,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.3125895,N,-124.2639327,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Cordova Bay Beach,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.52441413,N,-123.3656931,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Cottelsoe Beach,Perth,Western Australia,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-31.99539645,S,115.751195,E,-,-,-,-,-,-,50,Show on Map
+Craig X Climbing Gym,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Craigdarroch Castle,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42261499,N,-123.3436695,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Cranberry Lake,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.87333893,N,-124.520655,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Cusheon Lake Resort,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.81445266,N,-123.4687597,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Cuthbert Holmes Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.45762722,N,-123.4017365,W,-,-,-,-,-,-,50,Show on Map
+Daintree Crocodylus,Daintree Rainforest,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.22568911,S,145.4364511,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Daintree Discovery Centre,Daintree Rainforest,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.23750804,S,145.4278107,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Daintree Ferry,Daintree Rainforest,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.25973091,S,145.3982097,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Daintree Ice Cream Company,Daintree Rainforest,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.21377773,S,145.4045449,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Dallas Fort Worth International,Dallas,Texas,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,32.89757004,N,-97.04045595,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Dallas Road,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.40772492,N,-123.3465958,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Damnoen Saduak Floating Market,Damnoen Saduak District,Ratchaburi,Thailand,THA,-,-,-,-,-,0,-,-,-,-,-,-,13.51930331,N,99.95928884,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Darling Harbour,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.85136651,S,151.1996651,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Delta Hotel,Kelowna,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.89068088,N,-119.4982696,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Denarau Island Westin Resort,Denarau Island,Viti Levu,Fiji,FJI,-,-,-,-,-,0,-,-,-,-,-,-,-17.75992629,S,177.372551,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Dinner Bay,Mayne Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.83440624,N,-123.3178961,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+DND Emergency Response Training Centre,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.44792381,N,-123.4513414,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Donkersley Beach,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Douglas Street,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42857941,N,-123.3645558,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Downtown,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42312051,N,-123.3632416,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Dr. Sun Yat-Sen Classical Chinese Garden,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.27959253,N,-123.103416,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Drumbeg Provincial Park,Gabriola Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.13388647,N,-123.6953768,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Duncan,Duncan,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.74060318,N,-123.6184073,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Dunsmuir Middle School,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Durrance Lake,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.54758058,N,-123.476994,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+East Sooke Park,East Sooke,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.32572778,N,-123.6329694,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+East Sooke Park [Mirkwood],East Sooke,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Ecole Poirier Elementary School,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.39085,N,-123.718748,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ed Macgregor Park,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.37315341,N,-123.7246848,W,-,-,-,-,-,-,50,Show on Map
+Edge Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.47026808,N,-123.4044725,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Edward Milne Community School,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.3883385,N,-123.6964095,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Elk Falls Provincial Park,Campbell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,50.04137607,N,-125.3200579,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Elk Lake,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.53470927,N,-123.3901012,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ella Beach,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Empress,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42125862,N,-123.3668062,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Enchanted Adventure Garden,Arthurs Seat,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-38.35909953,S,144.9531676,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Englishman River Falls,Errington,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.24529876,N,-124.3501925,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Errington,Errington,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.24559293,N,-124.350214,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Esplanade,Cairns,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.91855242,S,145.7765004,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Esquimalt Fire Department,Esquimalt,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42938565,N,-123.4151316,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Esquimalt Lagoon,Victoria,British Columbia,Canada,CAN,-,-,-,-,3.694377831,0,319.381317,T,-,6.000906208,319.381317,T,48.42549167,N,-123.462975,W,-,-,0.079348116,K,-,2 2 0 0,50,Show on Map
+Esquimalt Recreation Centre,Esquimalt,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42871646,N,-123.412621,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Esquimalt Road,Esquimalt,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.43081656,N,-123.4003365,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Eureka Tower,Melbourne,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-37.8213156,S,144.964698,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Experience Music Project Museum,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.62122129,N,-122.3495074,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Expo 86 Grounds,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Fairmont Empress Hotel,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42157546,N,-123.3677369,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Fantasy Gardens,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Federation Square,Melbourne,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-37.81969923,S,144.9677673,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ferry,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.73151159,N,-123.4173203,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ferry [Little River to Powell River],Little River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.82779576,N,-124.5719147,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ferry Terminal,Tsawwassen,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.00815001,N,-123.1301308,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Fig Tree Park,Cairns,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.92449684,S,145.7805058,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Fire Station,Esquimalt,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.42938611,N,-123.4151306,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Fireside Grill,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.49502459,N,-123.3877669,W,-,-,-,-,-,-,50,Show on Map
+Fisherman's Wharf,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42276451,N,-123.3748341,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Flemming Beach,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Forest Museum [2892 Drinkwater Road],Duncan,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.79940121,N,-123.714155,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Fort Rodd Hill,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.43046773,N,-123.4475541,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Francis King Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.4861425,N,-123.4483802,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Frank Slide,Frank,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Fremantle Prison,Fremantle,Western Australia,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-32.04649687,S,115.7456017,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Fridas Villa and Cottage,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.80751111,N,-123.4269139,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Fulford Harbour,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.76906465,N,-123.4496315,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Fushimi Inari-taisha,Kyoto,Kyoto Prefecture,Japan,JPN,-,-,-,-,-,0,-,-,-,-,-,-,34.96719233,N,135.7725513,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+G.R. Pearkes Recreation Centre,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.45460927,N,-123.3988237,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Gabriola Island Community Hall,Gabriola Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.13318448,N,-123.7546965,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Galey Farms,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.4777,N,-123.3544806,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Galloping Goose Trail,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46232544,N,-123.4108025,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ganges,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.85210962,N,-123.4983766,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+George Davis Park,Mossman,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.45783816,S,145.3725024,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Gibsons Beach,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.88917403,N,-124.5941448,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Gnome Homes,Texada,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Golders Green,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.57181884,N,-0.195482484,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Goldstream Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.47895269,N,-123.548255,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Goodview Restaurant,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Gordon Bay,Lake Cowichan,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.835825,N,-124.1948167,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Government House,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.41844251,N,-123.3425456,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Goward House,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.46674308,N,-123.2969645,W,-,-,-,-,-,-,50,Show on Map
+Gowland Tod,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.56132908,N,-123.4657931,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Grand Hyatt Hotel,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.61221905,N,-122.3331445,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Grand Palace,Bangkok,Bangkok,Thailand,THA,-,-,-,-,-,-,-,-,-,-,-,-,13.75053611,N,100.4915361,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Granville Island,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.37969064,N,-123.0831599,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Greater Vancouver Zoo,Aldergrove,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.09392063,N,-122.4921083,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Greenglade Community Centre,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.6396051,N,-123.4099925,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Grouse Mountain,North Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.382275,N,-123.0787182,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Gyro Beach,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.45908472,N,-123.2919163,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Hacienda Buena Vista [Coffee Plantation],Ponce,Puerto Rico,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,18.08347222,N,-66.65404007,W,-,-,-,-,-,-,50,Show on Map
+Hamilton Island Airport,Hamilton Island,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-20.35169865,S,148.9517316,E,-,-,-,-,-,-,50,Show on Map
+Hampstead Heath,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.56082576,N,-0.163032764,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Hampton Court Park,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.40562666,N,-0.321681169,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Happy Valley Elementary School,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.42849988,N,-123.5290945,W,-,-,-,-,-,-,50,Show on Map
+Harbour Centre Tower,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Hartland Mountain Bike Trails,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.52919606,N,-123.4608364,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Haslam Lake,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Hatley Castle,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.4338313,N,-123.4724665,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Hatley Memorial Gardens,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.43996344,N,-123.4869289,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Helmecken Centennial Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46151084,N,-123.4310317,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Henderson Park,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.8760528,N,-124.548381,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Hetinkis Park,Ucluelet,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.93008416,N,-125.5406427,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Higgins Inn,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Highrock Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Historical Society and Museum,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.42937032,S,152.9100564,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Hyacinth Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46915483,N,-123.4023535,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Hyatt Regency Vancouver,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.28514955,N,-123.1205526,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Independence Monument,Phnom Penh,Phnom Penh,Cambodia,KHM,-,-,-,-,-,0,-,-,-,-,-,-,11.55646669,N,104.9282584,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Inland Lake,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Inner Harbour,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42193859,N,-123.3679891,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Isabella Dicken Elementary School,Fernie,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Ishizukas Tetsuji Dojo,Noda,Chiba Prefecture,Japan,JPN,-,-,-,-,-,0,-,-,-,-,-,-,35.95846983,N,139.8658356,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Island View Beach,Victoria,British Columbia,Canada,CAN,-,-,-,-,0.05598415,0,-,-,-,-,280.8449409,T,48.57326634,N,-123.3665984,W,WGS-84,-,-,-,-,2 2 0 0,50,Show on Map
+Italian Hall,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Iwatayama Monkey Park,Kyoto,Kyoto Prefecture,Japan,JPN,-,-,-,-,-,0,-,-,-,-,-,-,35.0091022,N,135.6748223,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Japanese Garden,Mayne Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.83278105,N,-123.3161634,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+JC Hill Elementary School,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.82684065,N,-124.5079172,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Jenolan Caves,Katoomba,New South Wales,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Joan and Charlie's Cabin,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.91208173,N,-123.5280412,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Joan and Charlie's House,Burnaby,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.27212387,N,-122.8841695,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Journey Middle School,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.387553,N,-123.717204,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Kalalau Valley,Kauai,Hawaii,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Katoomba Scenic World,Katoomba,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.72865846,S,150.3010798,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Keesler Airforce Base,Biloxi,Mississippi,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Kidd Road,Crescent Beach,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Kings Park and Botanic Garden,Perth,Western Australia,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.95995434,S,115.8340931,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Kinsol Trestle,Duncan,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.66884276,N,-123.6940598,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Konukson Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,60.38823811,0,-,-,-,-,37.04409857,M,48.45513163,N,-123.272866,W,WGS-84,-,-,-,-,2 2 0 0,50,Show on Map
+Kryal Castle,Ballarat,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-37.5714441,S,143.9562482,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+La Guancha Boardwalk,Ponce,Puerto Rico,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,17.96520851,S,-66.61408289,W,-,-,-,-,-,-,50,Show on Map
+Lake Monger,Perth,Western Australia,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.92612307,S,115.8246517,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Lampson School,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Langham Court Theatre,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.42030574,N,-123.3491854,W,-,-,-,-,-,-,50,Show on Map
+Larry Gouthro Park,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Layrtiz Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.49269139,N,-123.4070635,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Leechtown,Leechtown,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Lego Land,Melbourne,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-37.88451498,S,145.0836302,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Lighthouse Point,Mayne Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.87376299,N,-123.2906637,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Lindsay Park,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Little Mountain Cemetary,Chilliwack,British Columbia,Canada,CAN,-,-,-,-,37.13488975,0,-,-,-,-,267.4284666,T,49.18459355,N,-121.9060215,W,-,-,-,-,2.150972222,2 2 0 0,50,Show on Map
+Lois Lake,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Lone Tree Hill,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.51913431,N,-123.5136008,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Long Beach,Tofino,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.06978932,N,-125.7533312,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Lonsdale Quay,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.30991054,N,-123.0835891,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Lund,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.98166111,N,-124.7601528,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Luxton Fairgrounds,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42978076,N,-123.5306972,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+MacAulay Point Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,18.06413631,0,205.046532,T,-,12.00181242,205.046532,T,48.41878056,N,-123.4087611,W,-,-,0.142946824,K,-,2 2 0 0,50,Show on Map
+Madame Tussauds,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.8694393,S,151.2016076,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Madrona,Parksville,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.31426814,N,-124.2629242,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Maeklong Railway Market,Samut Songkhram,Bangkok,Thailand,THA,-,-,-,-,-,0,-,-,-,-,-,-,13.40715085,N,99.9994576,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Manly,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.79803903,S,151.2865271,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Marangaroo Golf Course,Perth,Western Australia,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.82739872,S,115.8330202,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Marble Temple,Bangkok,Bangkok,Thailand,THA,-,-,-,-,-,0,-,-,-,-,-,-,13.76656367,N,100.5140126,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Margaret River Chocolate Company,West Swan,Western Australia,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.85209884,S,115.9865713,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Marigold Elementary School,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46216537,N,-123.4091556,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Marigold Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,21.80319423,0,-,-,-,-,-,-,48.47016667,N,-123.4061667,W,-,-,-,-,0.035763889,2 2 0 0,50,Show on Map
+Marine Avenue [Patsy and Roy's House],Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.86388111,N,-124.5452951,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Market Square,Victoria,British Columbia,Canada,CAN,-,-,-,-,10.90068943,0,301.9952381,T,-,16.00241663,301.9952381,T,48.42817778,N,-123.3685083,W,-,-,0.415322957,K,-,2 2 0 0,50,Show on Map
+Matheson Lake,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.36377699,N,-123.6021137,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Mausoleum of Chaos,Ho Chi Minh City,Ho Chi Minh City,Vietnam,VNM,-,-,-,-,-,0,-,-,-,-,-,-,10.80044786,N,106.6610026,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Mckenzie Elementary School,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.46724649,N,-123.3916298,W,-,-,-,-,-,-,50,Show on Map
+McPherson Playhouse,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42880901,N,-123.3666801,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Mercure,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.93378243,S,151.1569405,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Metchosin Municipal Grounds,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.37920014,N,-123.5352731,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Millstream Village,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.4626616,N,-123.4967351,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Miners Bay,Mayne Island,British Columbia,Canada,CAN,-,-,-,-,1.632871035,0,-,-,-,-,273.176087,M,48.85188214,N,-123.3006823,W,WGS-84,-,-,-,-,2 2 0 0,50,Show on Map
+Miner's Beach,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.46542162,S,152.9340649,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Miniature World,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42234621,N,-123.3668813,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+MiPlace,Cairns,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.91965557,S,145.769993,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Morino Amusement Park,Noda,Chiba Prefecture,Japan,JPN,-,-,-,-,-,0,-,-,-,-,-,-,35.94803812,N,139.8792118,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Mount Doug,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.49755451,N,-123.3350945,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Mount Finlayson,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.4827736,N,-123.5385113,W,-,-,-,-,-,-,50,Show on Map
+Mount Helmcken,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.40157107,N,-123.5602283,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Mount Maxwell,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.80528065,N,-123.5155106,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Mount McDonald,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Mount Parke Regional Park,Mayne Island,British Columbia,Canada,CAN,-,-,-,-,159.3868895,0,-,-,-,-,329.4152411,M,48.8373201,N,-123.2815427,W,WGS-84,-,-,-,-,2 2 0 0,50,Show on Map
+Mount Tolmie,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.45823804,N,-123.3240652,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Mount Tzuhalem,Duncan,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Mount Wells,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Mount Work,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.54115954,N,-123.4854698,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Mowat Bay,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.87901196,N,-124.5273069,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Muddy's Playground,Cairns,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.91532171,S,145.7725,E,-,-,-,-,-,-,50,Show on Map
+Murrays Lookout,Arthurs Seat,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-38.35105013,S,144.9486698,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Museum of Pop Culture,Seattle,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Museum of Vancouver,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+My Chosen Cafe,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Myrtle Rocks Regional Park,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Nadi International Airport,Nadi,Viti Levu,Fiji,FJI,-,-,-,-,-,0,-,-,-,-,-,-,-17.75424525,S,177.4431896,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+National Museum,Phnom Penh,Phnom Penh,Cambodia,KHM,-,-,-,-,-,0,-,-,-,-,-,-,11.56574435,N,104.9291754,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Neild Road Radar Tower,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.40245075,N,-123.572368,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Nimrod Resort Apartments,Port Douglas,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.52387807,S,145.4706553,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+North Island Wildlife Recovery Association,Errington,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.3054896,N,-124.2603815,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Notre Dame Cathedral,Ho Chi Minh City,Ho Chi Minh City,Vietnam,VNM,-,-,-,-,-,0,-,-,-,-,-,-,10.78002827,N,106.6990793,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Oak Bay Recreation Centre,Victoria,British Columbia,Canada,CAN,-,-,-,-,21.85000038,0,225.8640133,T,-,65,225.8640133,T,48.43091944,N,-123.3204944,W,-,-,0,K,-,2 2 0 0,50,Show on Map
+Oceanside Beach Resort,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.79381714,N,-124.4754249,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Oceanside Resort,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Oceanside Village Resort,Parksville,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.31284722,N,-124.2705389,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Okeover Arm,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.99372582,N,-124.7161102,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Old Courthouse Inn,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Old San Juan,San Juan,Puerto Rico,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,18.46658377,N,-66.1057663,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Pacific Hotel [234 Preah Monivong Blvd [93]],Phnom Penh,Phnom Penh,Cambodia,KHM,-,-,-,-,-,0,-,-,-,-,-,-,11.56653174,N,104.9191438,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Pacific National Exhibition [PNE] Fairgrounds,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.28465966,N,-123.038764,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Pacific Science Centre,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.62120683,N,-122.3495007,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Page's Resort and Marina,Gabriola Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.14796621,N,-123.6966348,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Panama Flats,Victoria,British Columbia,Canada,CAN,-,-,-,-,4.22627763,0,162.5289389,T,-,5.897467829,162.5289389,T,48.47392778,N,-123.4005444,W,-,-,0.749972342,K,-,2 3 0 0,50,Show on Map
+Park Bridge,Golden,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,51.27850139,N,-116.8053854,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Parksville Museum,Parksville,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.3054896,N,-124.2603815,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Penner Avenue,Mission,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.15777614,N,-122.2686911,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Penner Road,Mission,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Perth Zoo,Perth,Western Australia,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.97655588,S,115.8538771,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Pike Place Market,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.60858173,N,-122.3406413,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Pioneer Square,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.60206865,N,-122.3339304,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Point Ellice House,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.43613583,N,-123.377004,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Poipu Beach,Kauai,Hawaii,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Polihale Beach,Kauai,Hawaii,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Politano Cafe,Brentwood Bay,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Ponce,San Juan,Puerto Rico,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,18.01122269,N,-66.6142273,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Port Macquarie Airport,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Port Macquarie Museum,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.42937032,S,152.9100564,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Portage Inlet,Victoria,British Columbia,Canada,CAN,-,-,-,-,41.78163494,0,222.4721074,T,-,16.00241663,222.4721074,T,48.46475556,N,-123.4468306,W,-,-,0.078162521,K,-,2 2 0 0,50,Show on Map
+Portsdown Hill,Portsmouth,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,50.85430607,N,-1.086950345,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Powell River,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.86387462,N,-124.5452991,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Powell River Ferry Terminal,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.83593422,N,-124.5303941,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Powerhouse at Stave Falls,Mission,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.22976841,N,-122.3559487,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Praisings Greenhouse,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Princess Angkor Hotel,Siem Reap,Siem Reap,Cambodia,KHM,-,-,-,-,-,0,-,-,-,-,-,-,13.37419813,N,103.8393939,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Putters Mini Golf,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.84703567,N,-124.5291757,W,-,-,-,-,-,-,50,Show on Map
+Queen Elizabeth Park,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Quick's Bottom,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.4963601,N,-123.4022999,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+QV Cafe & Bakery,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42957431,N,-123.3667982,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Rainier Square,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.60885027,N,-122.3343623,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Rathtrevor Beach Provincial Park,Parksville,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.3153872,N,-124.2545128,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Reece Avenue at Robson [Now 45711],Chilliwack,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Reunification Palace,Ho Chi Minh City,Ho Chi Minh City,Vietnam,VNM,-,-,-,-,-,0,-,-,-,-,-,-,10.77791509,N,106.6950989,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ricardoes Tomatoes and Strawberries,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.39045165,S,152.8288773,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Richmond Hill,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.45293547,N,-0.299129687,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Richmond Park,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.44113374,N,-0.27430298,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Riptide Lagoon Adventure Golf Ltd,Parksville,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.56743163,N,-123.5468602,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Robson Florist [Likely 1042 Robson],Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Roehampton Park,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.46134081,N,-0.247837745,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Rogers Arena,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.27785321,N,-123.1087643,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Roger's Place,Lake Cowichan,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.83248531,N,-124.1255844,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Romeos,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.44376764,N,-123.3365107,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Roosville Border Crossing,Roosville,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Ross Bay Cemetery,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.41127222,N,-123.34005,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Rottnest Island,Perth,Western Australia,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-32.0022532,S,115.5246735,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Royal BC Museum,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.41985236,N,-123.3675358,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Royal Beach Park Playground,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.40950884,N,-123.4798148,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Royal Canadian Legion Branch 292,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Royal London Wax Museum,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42130134,N,-123.3719963,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ruckle Park,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.77332406,N,-123.3668196,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+S-21 Tuol Sleng Genocide Museum,Phnom Penh,Phnom Penh,Cambodia,KHM,-,-,-,-,-,-,-,-,-,-,-,-,11.54914299,N,104.9177071,E,-,-,-,-,-,-,50,Show on Map
+Saanich Commonwealth Place,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.50138993,N,-123.3897471,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Saanich Fairgrounds,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.58273977,N,-123.433392,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Saanich Historical Artifacts Society,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.58147778,N,-123.3990167,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Saigon Central Post Office,Ho Chi Minh City,Ho Chi Minh City,Vietnam,VNM,-,-,-,-,-,0,-,-,-,-,-,-,10.7800757,N,106.6998088,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Salt Pond Park,Kauai,Hawaii,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Savary Island,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.94061518,N,-124.8088074,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Save on Foods Memorial Centre,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.43158183,N,-123.360562,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Saxe Point Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Science Fiction Museum and Hall of Fame,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.62120683,N,-122.3495007,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Scouts Canada Building,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46526362,N,-123.4025547,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sea Acres,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.46239545,S,152.9313826,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sea Cadet Grounds,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.86580671,N,-124.5403907,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sea Glass Beach,Sidney,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.64877636,N,-123.3938321,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+SEA LIFE Melbourne Aquarium,Melbourne,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-37.82064172,S,144.9582335,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sea Life Sydney Aquarium,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.86956927,S,151.2025863,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Sea Walk,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Seabus,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.30371971,N,-123.0869579,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sealand of the Pacific,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Seattle Aquarium,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.60744157,N,-122.3425283,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Seattle Art Museum,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.60775442,N,-122.3386256,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Seattle Central Library,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.6066495,N,-122.3325384,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Seattle Underground,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.60235983,N,-122.3336515,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Sensoji Temple,Asakusa,Tokyo,Japan,JPN,-,-,-,-,-,0,-,-,-,-,-,-,35.71477535,N,139.7966158,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Shanklin,Isle of Wight,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,50.6346374,N,-1.174491978,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Shaw Centre for the Salish Sea,Sidney,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.64946569,N,-123.3935773,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Shelter Point,Texada,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Shimofusanodaatago Shrine,Noda,Chiba Prefecture,Japan,JPN,-,-,-,-,-,0,-,-,-,-,-,-,35.94926168,N,139.8619008,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ship Island,Biloxi,Mississippi,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Sidney Spit Marine Park,Sidney,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Simon Fraser University,Burnaby,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.25260342,N,-122.8982377,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Simon Fraser University [Townhouse in Residence],Burnaby,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.2794788,N,-122.930726,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Skyrail Rainforest Cableway,Kuranada,Queensland,Australia,AUS,-,-,-,-,-,-,-,-,-,-,-,-,-16.84754126,S,145.6956705,E,-,-,-,-,-,-,50,Show on Map
+Smokin Tuna Cafe,East Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.32963472,N,-123.6343364,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sonora Island,Sonora Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Sooke Elementary,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.38087474,N,-123.7160647,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sooke Elementary School,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.3802878,N,-123.7157858,W,-,-,-,-,-,-,50,Show on Map
+Sooke Harbour House,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.35710454,N,-123.7223625,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sooke Potholes,Sooke,British Columbia,Canada,CAN,-,Vancouver Island,Sooke Potholes,River,-,0,-,-,-,-,-,-,48.41928986,N,-123.7123847,W,-,-,-,-,-,2 2 0 0,500,Show on Map
+South Sea Island,South Sea Island,Mamanuca Islands,Fiji,FJI,-,-,-,-,-,0,-,-,-,-,-,-,-17.69297873,S,177.3126626,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+South Valley Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.47235757,N,-123.4097162,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sovereign Hill,Ballarat,Victoria,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-37.57852857,S,143.8654609,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Space Needle,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.62120683,N,-122.3495007,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Space Needle Park,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.62120683,N,-122.3495007,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Spinnakers Brewpub & Guesthouses,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42909199,N,-123.3851311,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Spinnakers Brewpub and Guest Houses,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Spinnakers Brewpub and Guesthous,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Squamish General Hospital,Squamish,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+St. Ann's Academy,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.41911896,N,-123.3639979,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+St. George's Anglican Church,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46280922,N,-123.2942015,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Stanley Park,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.3008094,N,-123.1309462,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Stave Lake Road,Mission,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Stawamus Chief Provincial Park,Squamish,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.69304982,N,-123.1329203,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Studio 4,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42599688,N,-123.3638477,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Summit Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.4456287,N,-123.3542991,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sunset Beach Park,Vancouver,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.27768873,N,-123.1360531,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sunset Park,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.89362834,N,-124.5537052,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Swan Lake,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46363092,N,-123.3682144,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Swartz Bay Ferry Terminal,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,48.68635383,N,-123.411707,W,-,-,-,-,-,-,50,Show on Map
+Swartz Bay to Tsawwassen,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.95213058,N,-123.200467,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Swatz Bay Ferry Terminal,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Sweet Farm Tours,Whyanbeel,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.37707167,S,145.3659517,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Sydney Airport,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.93784144,S,151.1750507,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Ta Prohm,Siem Reap,Siem Reap,Cambodia,KHM,-,-,-,-,-,-,-,-,-,-,-,-,13.43499722,N,103.88925,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Tao Dan Park,Ho Chi Minh City,Ho Chi Minh City,Vietnam,VNM,-,-,-,-,-,-,-,-,-,-,-,-,10.77426944,N,106.6930806,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Teddington Lock,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.43008241,N,-0.322799786,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Tee Pee Park Campground and Airforce Beach,Comox,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.72130942,N,-124.8867953,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Temple of the Golden Buddha [Wat Traimit],Bangkok,Bangkok,Thailand,THA,-,-,-,-,-,-,-,-,-,-,-,-,13.73795556,N,100.5137,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Texada Elementary School,Texada,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+The Beach House Restaurant,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.52174912,N,-123.3669088,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+The Bluffs,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+The Hudson,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42956541,N,-123.3635098,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+The Mill,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.87388172,N,-124.5519376,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+The Rivers,Yarrow,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.08223942,N,-122.0554286,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+The Rocks,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.85887871,S,151.2081492,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+The Round House,Fremantle,Western Australia,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-32.05612913,S,115.7412887,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Thetis Lake,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.47849751,N,-123.4659004,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Three Sisters,Katoomba,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.73176358,S,150.3128815,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Thunderbird Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.41970223,N,-123.3665566,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Thurston Bay Forest Services Ranger Station,Thurston Bay,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Tiger Lily Farm,Errington,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.26941471,N,-124.361093,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Tiger Temple,Sai Yok District,Kanchanaburi Province,Thailand,THA,-,-,-,-,-,0,-,-,-,-,-,-,14.11777498,N,99.23201323,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Tigh Na Mara,Parksville,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.31084085,N,-124.2614597,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Tillicum Mall,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.45472311,N,-123.3951491,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Todd Inlet,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.56132908,N,-123.4657931,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Topaz Park,Victoria,British Columbia,Canada,CAN,-,-,-,-,18,0,-,-,-,-,-,-,48.44583333,N,-123.3631667,W,-,-,-,-,0.054513889,2 2 0 0,50,Show on Map
+Town Beach,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.42935888,S,152.918787,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Toyah Towers Balancing Rocks,Wangetti,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.69407322,S,145.5977465,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Tree House Cafe,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.85374037,N,-123.4985134,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Tulista Park,Sidney,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.64254984,N,-123.3998899,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Tumbalong Park,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.87479712,S,151.2011465,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Tuol Sleng Genocide Museum,Phnom Penh,Phnom Penh,Cambodia,KHM,-,-,-,-,-,0,-,-,-,-,-,-,11.54947743,N,104.9176291,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+UniLodge,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.88383018,S,151.1951485,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+University of Victoria,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.4635171,N,-123.3117163,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Uptown,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.45526033,N,-123.3754791,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Valentine Mountain,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,49.87332778,N,-124.5206667,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Van Anda,Texada,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Vancouver International Airport,Richmond,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.19617618,N,-123.1778526,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Vesuvias Harbour,Salt Spring Island,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Victoria Clipper Ferry,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.77129128,N,-122.4402237,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Victoria Clipper Ferry Terminal,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42220559,N,-123.3739758,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Victoria Conference Centre,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42129245,N,-123.3665793,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Victoria Courthouse Playground,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.42213439,N,-123.360731,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Victoria General Hospital,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.46665439,N,-123.4330595,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Victoria Gymnastics,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.43234709,N,-123.3695126,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Victoria Hospice,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Victoria International Airport [YYJ],Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.64043457,N,-123.4297282,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Victoria Paintball Adventures,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.40892141,N,-123.5616231,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Victoria Park,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.88594996,S,151.1925173,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Victoria Quay,Port Alberni,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.25716215,N,-124.8136139,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Village Bay Ferry Terminal,Mayne Island,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.84468234,N,-123.3252534,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Waimea Canyon,Kauai,Hawaii,United States of America,USA,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Walking the Beaches,Port Macquarie,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.46542162,S,152.9340649,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+War Remnants Museum,Ho Chi Minh City,Ho Chi Minh City,Vietnam,VNM,-,-,-,-,-,0,-,-,-,-,-,-,10.77932212,N,106.6923738,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Wat Arun,Bangkok,Bangkok,Thailand,THA,-,-,-,-,-,0,-,-,-,-,-,-,13.74405403,N,100.4886389,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Wat Phnom,Phnom Penh,Phnom Penh,Cambodia,KHM,-,-,-,-,-,0,-,-,-,-,-,-,11.5760134,N,104.9231136,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Wat Pho Reclining Buddha,Bangkok,Bangkok,Thailand,THA,-,-,-,-,-,-,-,-,-,-,-,-,13.74676389,N,100.4932306,E,-,-,-,-,-,2 3 0 0,50,Show on Map
+Waterfront Park,Kelowna,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.89068088,N,-119.4982696,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+Westburn Beach House and Cottages,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.38146974,N,-123.687821,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Western Communities Bus Exchange,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.4454579,N,-123.4659004,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Western Speedway,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.4740451,N,-123.4994709,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Westview Viewpoint,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+Whiffin Spit,Sooke,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.35673382,N,-123.7218046,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Whimbledon Commons,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.4396,N,-0.208644971,W,-,-,-,-,-,2 3 0 0,50,Show on Map
+Whippletree [475 Trans Canada Highway],Duncan,British Columbia,Canada,CAN,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,50,Show on Map
+WILD LIFE Sydney Zoo,Sydney,New South Wales,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-33.86957818,S,151.2015671,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Wildlife Habitat,Port Douglas,Queensland,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-16.52602332,S,145.4635521,E,-,-,-,-,-,2 2 0 0,50,Show on Map
+Willingdon Beach,Powell River,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.8462074,N,-124.5291924,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Willows Beach,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.43366401,N,-123.3037663,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Witty's Lagoon,Victoria,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,48.38641121,N,-123.5113907,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Woodbridge House,Woodbridge,Western Australia,Australia,AUS,-,-,-,-,-,0,-,-,-,-,-,-,-31.88899883,S,115.9867591,E,-,-,-,-,0,2 2 0 0,50,Show on Map
+Woodland Park Zoo,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.62120683,N,-122.3495007,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+World Parrot Refuge,Coombs,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.30507686,N,-124.4109392,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Yarrow Pioneer Park,Yarrow,British Columbia,Canada,CAN,-,-,-,-,-,0,-,-,-,-,-,-,49.08167022,N,-122.0542538,W,-,-,-,-,-,2 2 0 0,50,Show on Map
+Ye Olde Curiosity Shop,Seattle,Washington,United States of America,USA,-,-,-,-,-,0,-,-,-,-,-,-,47.60430893,N,-122.3391781,W,-,-,-,-,0,2 2 0 0,50,Show on Map
+ZSL London Zoo,London,Southeast England,England,GBR,-,-,-,-,-,-,-,-,-,-,-,-,51.53513046,N,-0.153181592,W,-,-,-,-,-,2 3 0 0,50,Show on Map

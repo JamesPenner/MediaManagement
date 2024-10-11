@@ -1,0 +1,16 @@
+Detect images with faces that have no people recorded in the metadata
+Extract Headline, Title, GUID and Asset Date metadata and compare it to file name.
+ - Make sure fields conform to specifications and that the file name does a s well
+
+ Confirm all location fields are the same
+
+
+ Metadata Manager Object:
+ Find people, places, events, dates
+ Find video metadata based on image metadata
+
+
+Functions:
+Manage Metadata
+Convert File Format
+File renaming and management

@@ -1,0 +1,376 @@
+NameID,Prefer NickName,Metadata Name,Column1,Title,First Name,Middle Name,Last Name,Married Names,Nick Names,Spouse Name,SpouseID,Date - Birth,Date - Marriage,Date - Death,Family
+0,TRUE,Don's cousin's husband,FALSE,,,,,,Don's cousin's husband,,,,,,FALSE
+1,TRUE,Ship Captain,FALSE,,,,,,Ship Captain,,,,,,FALSE
+2,TRUE,Ship Hostess,FALSE,,,,,,Ship Hostess,,,,,,FALSE
+3,TRUE,Sleazebag Entertainment Director,FALSE,,,,,,Sleazebag Entertainment Director,,,,,,FALSE
+4,TRUE,Previous Ship Hostess,FALSE,,,,,,Previous Ship Hostess,,,,,,FALSE
+5,TRUE,Unitarian Church pastor,FALSE,,,,,,Unitarian Church pastor,,,,,,FALSE
+6,FALSE,Aaron Bennett,TRUE,,Aaron,,Bennett,,,,,,,,FALSE
+7,FALSE,Al Szczawinski,TRUE,,Al,,Szczawinski,,,,,,,,FALSE
+8,FALSE,Alan,FALSE,,Alan,,,,,,,,,,FALSE
+9,FALSE,Alan Ernest Penner,TRUE,,Alan,Ernest,Penner,,,,,1966-05-16,,,TRUE
+10,FALSE,Alan Greenwood,TRUE,,Alan,,Greenwood,,,,,1941-10-15,,,TRUE
+11,FALSE,Alanya Claire Smith (Wiles),TRUE,,Alanya,Claire,Wiles,Smith,,,,,,,FALSE
+12,FALSE,Alec,TRUE,,Alec,,,,,,,,,,FALSE
+13,FALSE,Amanda Sandberg (McNeil),TRUE,,Amanda,,McNeil,Sandberg,,,,,,,FALSE
+14,FALSE,Amando Pitag Jr,TRUE,,Amando,,Pitag Jr,,,,,,,,FALSE
+15,FALSE,Andrea,FALSE,,Andrea,,,,,,,,,,FALSE
+16,FALSE,Andrew Njume,TRUE,,Andrew,,Njume,,,,,,,,FALSE
+17,FALSE,Andrew Watson,TRUE,,Andrew,,Watson,,,,,,,,FALSE
+18,FALSE,Angela Atkins,TRUE,,Angela,,Atkins,,,,,,,,FALSE
+19,FALSE,Angela Dawn Woods (Norris),TRUE,,Angela,Dawn,Norris,Woods,,Chris Woods,1900-02-26,1972-07-09,,,TRUE
+20,FALSE,Ann,TRUE,,Ann,,,,,,,,,,FALSE
+21,FALSE,Ann Winberg,TRUE,,Ann,,Winberg,,,John William Penner,1900-06-27,,1988-05-13,,TRUE
+22,FALSE,Anna Enns (Boldt),TRUE,,Anna,,Boldt,Enns,,,,,,,TRUE
+23,FALSE,Anne-Marie,TRUE,,Anne-Marie,,,,,,,,,,FALSE
+24,FALSE,Annette,FALSE,,Annette,,,,,,,,,,FALSE
+25,FALSE,Annie Mary Wardle (Penner),TRUE,,Annie,Mary,Penner,Wardle,,Norman James Wardle,1900-09-09,1937-05-12,1958-10-04,,TRUE
+26,FALSE,April Andrews,TRUE,,April,,Andrews,,,,,,,,FALSE
+27,FALSE,Ariel,FALSE,,Ariel,,,,,,,,,,FALSE
+28,FALSE,Aven Sandberg,TRUE,,Aven,,Sandberg,,,,,,,,FALSE
+29,FALSE,Beauty,TRUE,,Beauty,,,,,,,,,,FALSE
+30,FALSE,Bethany Anne Stibbe,TRUE,,Bethany,Anne,Stibbe,,,,,,,,TRUE
+31,FALSE,Birdie,FALSE,,Birdie,,,,The Cat,,,,,,FALSE
+32,FALSE,Birgit,FALSE,,Birgit,,,,neighbor,,,,,,FALSE
+33,FALSE,Blenkinsop neighbours,TRUE,,Blenkinsop,,neighbours,,,,,,,,FALSE
+34,FALSE,Blueboy,TRUE,,Blueboy,,,,,,,,,,FALSE
+35,FALSE,Bob,TRUE,,Bob,,,,,,,,,,FALSE
+36,FALSE,Bob Hunter,TRUE,,Bob,,Hunter,,,Judy Anne Hunter (Barker),1900-06-28,1944-04-10,,43520,TRUE
+37,FALSE,Bob Steele,TRUE,,Bob,,Steele,,,,,,,,FALSE
+38,FALSE,Bonnie,TRUE,,Bonnie,,,,,,,,,,FALSE
+39,FALSE,brad,TRUE,,brad,,,,,,,,,,FALSE
+40,FALSE,Brenda Lee Barker,TRUE,,Brenda,Lee,Barker,,,,,1954-11-14,,22559,TRUE
+41,FALSE,Brent,FALSE,,Brent,,,,Friend,,,,,,FALSE
+42,FALSE,Brij Charan,TRUE,,Brij,,Charan,,,,,,,,FALSE
+43,FALSE,Bryan,FALSE,,Bryan,,,,Noela's date,,,,,,FALSE
+44,FALSE,Caleb Heath,TRUE,,Caleb,,Heath,,,,,,,,TRUE
+45,FALSE,Carol Glover,TRUE,,Carol,,Glover,,,,,,,,TRUE
+46,TRUE,Carol Lemay (Penner),TRUE,,Carol,,Lemay,Penner,Carol Lemay (Penner),David Penner,1900-03-16,,,,TRUE
+47,FALSE,Carol Penner (Lemay),FALSE,,Carol,,Lemay,Penner,,,,,,,FALSE
+48,FALSE,Caroline del Valle,TRUE,,Caroline,,del Valle,,,Vaughn del Valle,1900-12-16,,,,TRUE
+49,FALSE,Carolyn Acs,TRUE,,Carolyn,,Acs,,,,,,,,FALSE
+50,FALSE,Catherine Sheard,TRUE,,Catherine,,Sheard,,,,,,,,FALSE
+51,FALSE,Cathie Mitchell,FALSE,,Cathie,,Mitchell,,,,,,,,FALSE
+52,FALSE,Cathie Penner (Mitchell),TRUE,,Cathie,,Mitchell,Penner,,Donald John Penner,1900-03-30,1962-08-08,1986-05-17,,TRUE
+53,FALSE,Cecil Ethelbert Purnell Carey,TRUE,,Cecil,Ethelbert Purnell,Carey,,,Rosa Ann Carey (Dight),1900-10-17,,,,TRUE
+54,FALSE,Charles Capezzuto,TRUE,,Charles,,Capezzuto,,,,,,,,TRUE
+55,FALSE,Charlie Naylor,TRUE,,Charlie,,Naylor,,,,,,,,FALSE
+56,FALSE,Chris Hunter,TRUE,,Chris,,Hunter,,,Jodie Pongracz,1900-06-18,1973-07-27,,,TRUE
+57,FALSE,Chris Woods,TRUE,,Chris,,Woods,,,Angela Dawn Woods (Norris),1900-01-19,,1998-05-17,,TRUE
+58,FALSE,Christopher John Hunter,FALSE,,Christopher,John,Hunter,,,,,,,,FALSE
+59,FALSE,Claire,TRUE,,Claire,,,,,,,,,,FALSE
+60,FALSE,Clare Forrester,FALSE,,Clare,Forrester,,,Uncle Clare,,,,,,FALSE
+61,FALSE,Cliff Capezzuto,TRUE,,Cliff,,Capezzuto,,,Sandra Capezzuto (Hunter),1900-10-31,,,,TRUE
+62,FALSE,Clifton Cann,TRUE,,Clifton,,Cann,,,Rhys [Valerie] del Valle,1900-10-01,,2009-05-09,,TRUE
+63,FALSE,Coen del Valle,TRUE,,Coen,,del Valle,,,,,,,,TRUE
+64,FALSE,Colton Webb,TRUE,,Colton,,Webb,,,,,,,,FALSE
+65,FALSE,Connie Barker (Skinner),TRUE,,Connie,,Skinner,Barker,,Rick Barker,1900-10-06,,1986-08-28,,TRUE
+66,FALSE,Cookie,FALSE,,Cookie,,,,neighbor,,,,,,FALSE
+67,FALSE,Corey Wiens,TRUE,,Corey,,Wiens,,,,,,,,FALSE
+68,FALSE,Curtis Heath,TRUE,,Curtis,,Heath,,,Birdie,1900-01-31,,1998-05-17,,TRUE
+69,FALSE,Dana,FALSE,,Dana,,,,Friend,,,,,,FALSE
+70,FALSE,Danielle Olson,FALSE,,Danielle,,Olson,,,,,,,,FALSE
+71,FALSE,Darren Norris,TRUE,,Darren,,Norris,,,,,1970-01-30,,,TRUE
+72,FALSE,Darryl Hunter,TRUE,,Darryl,,Hunter,,,,,1966-03-02,,29202,TRUE
+73,FALSE,Dave Byng,TRUE,,Dave,,Byng,,,,,,,,FALSE
+74,FALSE,Dave Sheard,TRUE,,Dave,,Sheard,,,,,,,,FALSE
+75,FALSE,David Parsons,FALSE,,David,,Parsons,,,,,,,,FALSE
+76,FALSE,David Penner,TRUE,,David,,Penner,,,Carol Lemay (Penner),1900-02-15,,,,TRUE
+77,FALSE,David Watson,TRUE,,David,,Watson,,,,,,,,FALSE
+78,FALSE,David William Glover,TRUE,,David,William,Glover,,,,,,,,TRUE
+79,FALSE,Debbie Best,TRUE,,Debbie,,Best,,,,,,,,FALSE
+80,FALSE,Debbie Silvey,TRUE,,Debbie,,Silvey,,,,,,,,FALSE
+81,FALSE,Debora Bowman,TRUE,,Debora,,Bowman,,,,,,,,FALSE
+82,FALSE,Deborah Munro,FALSE,,Deborah,,Munro,,,,,,,,FALSE
+83,FALSE,Denise Tory,TRUE,,Denise,,Tory,,,,,,,,FALSE
+84,FALSE,Dennis Lee Barker,TRUE,,Dennis,Lee,Barker,,,,,,,,TRUE
+85,FALSE,Diane Mae Penner (Barker),TRUE,,Diane,Mae,Barker,Penner,,Henry Peter Penner,1900-05-14,1941-11-21,1967-04-21,36309,TRUE
+86,FALSE,Diane Propster,FALSE,,Diane,,Propster,,,,,,,,FALSE
+87,FALSE,Dirk Nyland,TRUE,,Dirk,,Nyland,,,,,,,,FALSE
+88,FALSE,Dolores McKinney,TRUE,,Dolores,,McKinney,,,,,,,,FALSE
+89,FALSE,Don Loewen,TRUE,,Don,,Loewen,,,,,,,,FALSE
+90,FALSE,Donald John Penner,TRUE,,Donald,John,Penner,,,Cathie Penner (Mitchell),1900-02-21,1962-08-12,1986-05-17,43097,TRUE
+91,FALSE,Doug Mark Wardle,TRUE,,Doug,Mark,Wardle,,,Sharon Wardle (Hatherell),1900-11-06,1959-11-13,1991-11-23,,TRUE
+92,FALSE,Douglas Wardle,FALSE,,Douglas,,Wardle,,,,,,,,FALSE
+93,FALSE,Dustin Snyder,TRUE,,Dustin,,Snyder,,,,,,,,FALSE
+94,FALSE,Ed Miska,TRUE,,Ed,,Miska,,,,,,,,FALSE
+95,FALSE,Edith Florence Barker (Smith),TRUE,,Edith,Florence,Smith,Barker,,,,,,,TRUE
+96,TRUE,Eileen Morford [Aunt Dot],FALSE,,Eileen,,Morford,,Eileen Morford [Aunt Dot],,,,,,TRUE
+97,FALSE,Eleanor Mulloy,TRUE,,Eleanor,,Mulloy,,,,,,,,FALSE
+98,FALSE,Eleanor Schumaker,TRUE,,Eleanor,,Schumaker,,,,,,,,FALSE
+99,FALSE,Elena,FALSE,,Elena,,,,friend,,,,,,FALSE
+100,FALSE,Elias del Valle,TRUE,,Elias,,del Valle,,,,,,,,TRUE
+101,FALSE,Eliza Dight (Wedlake),TRUE,,Eliza,,Wedlake,Dight,,,,,,,TRUE
+102,FALSE,Elizabeth Woodworth,TRUE,,Elizabeth,,Woodworth,,,,,,,,FALSE
+103,FALSE,Ellie Boisvert,FALSE,,Ellie,,Boisvert,,,,,,,,FALSE
+104,FALSE,Els Van Wijngaarden,TRUE,,Els,,Van Wijngaarden,,,,,,,,FALSE
+105,FALSE,Elsie Mae Barker (Carey),TRUE,,Elsie,Mae,Carey,Barker,,Hansel William Patten (Barker),1900-05-10,1920-08-04,1940-09-16,37240,TRUE
+106,FALSE,Emily,FALSE,,Emily,,,,Cynthia's friend,,,,,,FALSE
+107,FALSE,Erica Margaret Bruce (Enns),TRUE,,Erica,Margaret,Enns,Bruce,,,,,,,TRUE
+108,FALSE,Eunice,FALSE,,Eunice,,,,,,,,,,FALSE
+109,FALSE,Everett,FALSE,,Everett,,,,,,,,,,FALSE
+110,FALSE,Fiona,TRUE,,Fiona,,,,,,,,,,FALSE
+111,FALSE,Fran Aitkens,TRUE,,Fran,,Aitkens,,,,,,,,FALSE
+112,FALSE,Fran Backhouse,TRUE,,Fran,,Backhouse,,,,,,,,FALSE
+113,FALSE,Fred Shadian,TRUE,,Fred,,Shadian,,,,,,,,FALSE
+114,FALSE,Gail Ross,TRUE,,Gail,,Ross,,,,,,,,FALSE
+115,FALSE,Galen,FALSE,,Galen,,,,Dana's Brother,,,,,,FALSE
+116,FALSE,Garth Campbell,TRUE,,Garth,,Campbell,,,,,,,,FALSE
+117,FALSE,Gavin McLeod,TRUE,,Gavin,,McLeod,,,,,,,,FALSE
+118,FALSE,Gene Schnabel,TRUE,,Gene,,Schnabel,,,,,,,,FALSE
+119,FALSE,Geoff Bessell,TRUE,,Geoff,,Bessell,,,,,,,,FALSE
+120,FALSE,George Dight,TRUE,,George,,Dight,,,,,,,,TRUE
+121,FALSE,Georgia,TRUE,,Georgia,,,,,,,,,,FALSE
+122,FALSE,Gillian Thomas-Martin,TRUE,,Gillian,,Thomas-Martin,,,,,,,,FALSE
+123,FALSE,Glenn Rand,TRUE,,Glenn,,Rand,,,Linda Rand (Carey),1900-07-28,,,,TRUE
+124,FALSE,Gloria Valle,TRUE,,Gloria,,Valle,,,,,,,,FALSE
+125,FALSE,Glynis Richman,FALSE,,Glynis,,Richman,,,,,,,,FALSE
+126,FALSE,Gord Smith,TRUE,,Gord,,Smith,,,,,,,,FALSE
+127,FALSE,Gordon Campbell,TRUE,,Gordon,,Campbell,,,,,,,,FALSE
+128,FALSE,Graham,TRUE,,Graham,,,,,,,,,,FALSE
+129,FALSE,Grant Campbell,TRUE,,Grant,,Campbell,,,,,,,,FALSE
+130,FALSE,Hank,TRUE,,Hank,,,,,,,,,,FALSE
+131,TRUE,Hansel William Patten (Barker),TRUE,,Hansel,William,Barker,Patten,Hansel William Patten (Barker),Elsie Mae Barker (Carey),1900-04-14,1915-10-05,1940-09-16,34900,TRUE
+132,FALSE,Harry,TRUE,,Harry,,,,,,,,,,FALSE
+133,FALSE,Heidi Katharina Greenwood (Enns),TRUE,,Heidi,Katharina,Enns,Greenwood,,,,,,,TRUE
+134,FALSE,Helen Schnabel,TRUE,,Helen,,Schnabel,,,,,,,,FALSE
+135,FALSE,Henry Peter Penner,TRUE,,Henry,Peter,Penner,,,Diane Mae Penner (Barker),1900-03-25,1942-05-04,1967-04-21,,TRUE
+136,FALSE,Hew Padmore,TRUE,,Hew,,Padmore,,,,,,,,FALSE
+137,FALSE,Hillary Warren,TRUE,,Hillary,,Warren,,,,,,,,FALSE
+138,FALSE,Hugh Padmore,TRUE,,Hugh,,Padmore,,,,,,,,FALSE
+139,FALSE,Ian Pilkington,TRUE,,Ian,,Pilkington,,,,,,,,FALSE
+140,FALSE,Ian Topic,TRUE,,Ian,,Topic,,,,,,,,FALSE
+141,FALSE,Irma Helen Penner,TRUE,,Irma,Helen,Penner,,,,,1934-09-05,,,TRUE
+142,FALSE,Jaap del Valle,TRUE,,Jaap,,del Valle,,,,,,,,TRUE
+143,FALSE,Jack Chapman,TRUE,,Jack,,Chapman,,,Joan Chapman (Carey),1900-06-15,,,,TRUE
+144,FALSE,James,FALSE,,James,,,,,,,,,,FALSE
+145,FALSE,James McKenzie,TRUE,,James,,McKenzie,,,,,,,,FALSE
+146,FALSE,James Peter Penner,TRUE,,James,Peter,Penner,,,Samantha Claire Blackstone,1900-10-28,1976-08-10,2010-06-26,,TRUE
+147,FALSE,James Wigginton,TRUE,,James,,Wigginton,,,,,,,,FALSE
+148,FALSE,Jamie Sandberg,TRUE,,Jamie,,Sandberg,,,,,,,,FALSE
+149,FALSE,Janice,TRUE,,Janice,,,,,,,,,,FALSE
+150,FALSE,Jann Boutillier,TRUE,,Jann,,Boutillier,,,,,,,,FALSE
+151,FALSE,Jason,TRUE,,Jason,,,,,,,,,,FALSE
+152,FALSE,Jason Smith,TRUE,,Jason,,Smith,,,,,,,,FALSE
+153,FALSE,Jason Wood,TRUE,,Jason,,Wood,,,,,,,,FALSE
+154,FALSE,Jean,FALSE,,Jean,,,,hair stylist,,,,,,FALSE
+155,FALSE,Jean Glover (MacDonald),FALSE,,Jean,,MacDonald,Glover,Jean Glover [Nana] (MacDonald),,,,,,FALSE
+156,TRUE,Jean Glover [Nana] (MacDonald),TRUE,,Jean,,MacDonald,Glover,Jean Glover [Nana] (MacDonald),,,,,,TRUE
+157,FALSE,Jeff Richards,TRUE,,Jeff,,Richards,,,,,,,,FALSE
+158,FALSE,Jeff Woods,TRUE,,Jeff,,Woods,,,,,,,,FALSE
+159,FALSE,Jeffrey David Penner,TRUE,,Jeffrey,David,Penner,,,,,1981-08-18,,,TRUE
+160,FALSE,Jen,TRUE,,Jen,,,,,,,,,,FALSE
+161,FALSE,Jen Campbell,TRUE,,Jen,,Campbell,,,,,,,,FALSE
+162,FALSE,Jenna,FALSE,,Jenna,,,,Rhys' Dog,,,,,,FALSE
+163,FALSE,Jennifer Tedlie,TRUE,,Jennifer,,Tedlie,,,,,,,,FALSE
+164,FALSE,Jenny Woo,TRUE,,Jenny,,Woo,,,,,,,,FALSE
+165,FALSE,Jerry,TRUE,,Jerry,,,,,,,,,,FALSE
+166,FALSE,Jim Glover,TRUE,,Jim,,Glover,,,,,,,,TRUE
+167,FALSE,Joan Chapman (Carey),TRUE,,Joan,,Carey,Chapman,,Jack Chapman,1900-05-22,,,,TRUE
+168,FALSE,Joan Spencley,TRUE,,Joan,,Spencley,,,,,,,,FALSE
+169,FALSE,Joanne Lee Bailey (Wardle),TRUE,,Joanne,Lee,Wardle,Bailey,,John Bailey,1900-06-21,1961-07-24,1988-09-24,,TRUE
+170,FALSE,Jodie Pongracz,FALSE,,Jodie,,Pongracz,,,Chris Hunter,1900-02-25,,,,TRUE
+171,FALSE,Joe Mills,TRUE,,Joe,,Mills,,,,,,,,FALSE
+172,FALSE,Joe Sinclair,FALSE,,Joe,,Sinclair,,,,,,,,FALSE
+173,FALSE,John Bailey,TRUE,,John,,Bailey,,,Joanne Lee Bailey (Wardle),1900-06-17,1958-07-04,1988-09-24,,TRUE
+174,FALSE,John Edward Cyril Trott,TRUE,,John,Edward Cyril,Trott,,,,,,,,TRUE
+175,FALSE,John George Penner,TRUE,,John,George,Penner,,,Mary Penner (Lowden),1900-08-15,1932-02-04,1956-12-29,,TRUE
+176,FALSE,John John Penner,TRUE,,John,John,Penner,,,Maria Henriette Penner (Enns),1900-08-07,1904-11-26,1931-04-12,19451,TRUE
+177,FALSE,John Peters,TRUE,,John,,Peters,,,,,,,,FALSE
+178,FALSE,John Rapp,FALSE,,John,,Rapp,,,,,,,,FALSE
+179,FALSE,John William Penner,TRUE,,John,William,Penner,,,Ann Winberg,1900-01-21,1967-09-25,1988-05-13,,TRUE
+180,FALSE,Judy Anne Hunter (Barker),TRUE,,Judy,Anne,Barker,Hunter,,Bob Hunter,1900-02-05,1946-05-13,,43669,TRUE
+181,FALSE,Jules Sheard,TRUE,,Jules,,Sheard,,,,,,,,FALSE
+182,FALSE,Justin R,TRUE,,Justin,,R,,,,,,,,FALSE
+183,FALSE,Kade Hunter,TRUE,,Kade,,Hunter,,,,,,,,TRUE
+184,FALSE,Kallie,TRUE,,Kallie,,,,,,,,,,FALSE
+185,FALSE,Karen Bessell,TRUE,,Karen,,Bessell,,,,,,,,FALSE
+186,FALSE,Karen Watson,TRUE,,Karen,,Watson,,,,,,,,FALSE
+187,FALSE,Kate Von Kanel,TRUE,,Kate,,Von Kanel,,,,,,,,FALSE
+188,FALSE,Katie Blackett,TRUE,,Katie,,Blackett,,,,,,,,FALSE
+189,FALSE,Katy Stedman,TRUE,,Katy,,Stedman,,,,,,,,FALSE
+190,FALSE,Ken Bouvet,TRUE,,Ken,,Bouvet,,,,,,,,FALSE
+191,FALSE,Kent Bergstrom,TRUE,,Kent,,Bergstrom,,,,,,,,FALSE
+192,FALSE,Kevin Baskin,TRUE,,Kevin,,Baskin,,,,,,,,FALSE
+193,FALSE,Kevin Richter,TRUE,,Kevin,,Richter,,,,,,,,FALSE
+194,FALSE,Kezia Yeats,TRUE,,Kezia,,Yeats,,,,,,,,FALSE
+195,FALSE,Kisha Supernant,TRUE,,Kisha,,Supernant,,,,,,,,FALSE
+196,FALSE,Kristen Reimer,TRUE,,Kristen,,Reimer,,,,,,,,FALSE
+197,FALSE,Kyra Sheard,FALSE,,Kyra,,Sheard,,,,,,,,FALSE
+198,FALSE,Lara Grace Bailey,TRUE,,Lara,Grace,Bailey,,,,,,,,TRUE
+199,FALSE,Leanne Smedley,FALSE,,Leanne,,Smedley,,,,,,,,FALSE
+200,FALSE,Lee Mills,TRUE,,Lee,,Mills,,,,,,,,FALSE
+201,FALSE,Leonard Edward Carey,,,Leonard,Edward,Carey,,,Eileen Morford [Aunt Dot],1900-04-05,1911-04-29,,,TRUE
+202,FALSE,Leonard Sielecki,TRUE,,Leonard,,Sielecki,,,,,,,,FALSE
+203,FALSE,Leslie,FALSE,,Leslie,,,,Don,,,,,,FALSE
+204,FALSE,Leslie Glover,TRUE,,Leslie,,Glover,,,,,,,,TRUE
+205,FALSE,Liam Peter Penner,TRUE,,Liam,Peter,Penner,,,,,2011-06-28,,,TRUE
+206,FALSE,Liav Gold (Brenda),FALSE,,Liav,,Brenda,Gold,,,,,,,FALSE
+207,FALSE,Likas,FALSE,,Likas,,,,drummer,,,,,,FALSE
+208,FALSE,Linda Jane Wardle,TRUE,,Linda,Jane,Wardle,,,,,1964-03-14,,,TRUE
+209,FALSE,Linda Njume,TRUE,,Linda,,Njume,,,,,,,,FALSE
+210,FALSE,Linda Rand (Carey),TRUE,,Linda,,Carey,Rand,,Glenn Rand,1900-05-02,,,,TRUE
+211,FALSE,Linda Ross,TRUE,,Linda,,Ross,,,,,,,,FALSE
+212,FALSE,Lionel Cai,TRUE,,Lionel,,Cai,,,,,,,,FALSE
+213,FALSE,Liz Ross,FALSE,,Liz,,Ross,,,,,,,,FALSE
+214,FALSE,lois Vickery,TRUE,,lois,,Vickery,,,,,,,,FALSE
+215,FALSE,Louise Cole,FALSE,,Louise,,Cole,,,,,,,,FALSE
+216,FALSE,Madison Glover,TRUE,,Madison,,Glover,,,,,,,,TRUE
+217,FALSE,Mahia,TRUE,,Mahia,,,,,,,,,,FALSE
+218,FALSE,Mallumut,TRUE,,Mallumut,,,,,,,,,,FALSE
+219,FALSE,Marcie Summers,TRUE,,Marcie,,Summers,,,,,,,,FALSE
+220,FALSE,Maria Henriette Penner (Enns),TRUE,,Maria,Henriette,Enns,Penner,Maria Henriette Penner (Enns),John John Penner,1900-06-24,1898-18-2,1931-04-12,30668,TRUE
+221,FALSE,Marian Elizabeth Bailey,TRUE,,Marian,Elizabeth,Bailey,,,,,,,,TRUE
+222,FALSE,Marianne Scott,TRUE,,Marianne,,Scott,,,,,,,,FALSE
+223,FALSE,Marie Henrietta Penner (Enns),FALSE,,Marie,Henrietta,Enns,Penner,,,,,,,FALSE
+224,FALSE,Marilyn,TRUE,,Marilyn,,,,,,,,,,FALSE
+225,FALSE,Marlee Taylor,TRUE,,Marlee,,Taylor,,,,,,,,FALSE
+226,FALSE,Marlin,TRUE,,Marlin,,,,,,,,,,FALSE
+227,FALSE,Mary Bea,FALSE,,Mary,,Bea,,,,,,,,FALSE
+228,FALSE,Mary Penner (Lowden),TRUE,,Mary,,Lowden,Penner,,John George Penner,1900-06-23,1937-08-12,1956-12-29,,TRUE
+229,FALSE,Matthew Berger,TRUE,,Matthew,,Berger,,,,,,,,FALSE
+230,FALSE,McKinnon,FALSE,Miss,,,McKinnon,,,,,,,,FALSE
+231,FALSE,Megan Barker,TRUE,,Megan,,Barker,,,,,,,,TRUE
+232,FALSE,Melanie Smith,TRUE,,Melanie,,Smith,,,,,,,,FALSE
+233,FALSE,Melissa,TRUE,,Melissa,,,,,,,,,,FALSE
+234,FALSE,Michael,TRUE,,Michael,,,,,,,,,,FALSE
+235,FALSE,Michael Billings,TRUE,,Michael,,Billings,,,,,,,,FALSE
+236,FALSE,Michaela,TRUE,,Michaela,,,,,,,,,,FALSE
+237,FALSE,Mickey,TRUE,,Mickey,,,,,,,,,,FALSE
+238,FALSE,Mike Close,TRUE,,Mike,,Close,,,,,,,,FALSE
+239,FALSE,Mike Proudfoot,TRUE,,Mike,,Proudfoot,,,,,,,,FALSE
+240,FALSE,Milo,FALSE,,Milo,,,,The Cat,,,,,,FALSE
+241,FALSE,Milo del Valle,TRUE,,Milo,,del Valle,,,,,,,,TRUE
+242,FALSE,Milo Leslie Foster,FALSE,,Milo,Leslie,Foster,,Boppy,,,,,,FALSE
+243,TRUE,Milo Leslie Foster [Boppy],TRUE,,Milo,Leslie,Foster,,Milo Leslie Foster [Boppy],,,,,,TRUE
+244,FALSE,Milo Topic,TRUE,,Milo,,Topic,,,,,,,,FALSE
+245,FALSE,Mitchell John Penner,TRUE,,Mitchell,John,Penner,,,,,,,,TRUE
+246,FALSE,Mitzi,FALSE,,Mitzi,,,,Rhys friend,,,,,,FALSE
+247,FALSE,Nadya Moron,FALSE,,Nadya,,Moron,,,,,,,,FALSE
+248,FALSE,Nahid Badiei-Arani,TRUE,,Nahid,,Badiei-Arani,,,,,,,,FALSE
+249,FALSE,Nancy Mcleod,TRUE,,Nancy,,Mcleod,,,,,,,,FALSE
+250,FALSE,Nancy Whitely,TRUE,,Nancy,,Whitely,,,,,,,,FALSE
+251,FALSE,Nicholas Bell,TRUE,,Nicholas,,Bell,,,,,,,,FALSE
+252,FALSE,Ninja,FALSE,,Ninja,,,,Rhys' Cat,,,,,,FALSE
+253,FALSE,Norman James Wardle,TRUE,,Norman,James,Wardle,,,Annie Mary Wardle (Penner),1900-01-25,1933-12-07,1958-10-04,44235,TRUE
+254,FALSE,Oz,FALSE,,Oz,,,,cat,,,,,,FALSE
+255,FALSE,Pam Blackstone,TRUE,,Pam,,Blackstone,,,,,1951-03-02,,,TRUE
+256,FALSE,Pam Salloway,TRUE,,Pam,,Salloway,,,,,,,,FALSE
+257,FALSE,Pamela Lynne Heath (Norris),TRUE,Mrs,Pamela,Lynne,Norris,Heath,,Curtis Heath,1900-03-08,1973-12-26,1998-05-17,,TRUE
+258,FALSE,Papa,FALSE,,Papa,,,,,,,,,,FALSE
+259,FALSE,Pat,TRUE,,Pat,,,,,,,,,,FALSE
+260,FALSE,Patrica Lynne Norris (Barker),TRUE,,Patrica,Lynne,Barker,Norris,,Wayne William Norris,1900-12-21,1949-07-12,1969-05-31,,TRUE
+261,FALSE,Paul Blackett,TRUE,,Paul,,Blackett,,,,,,,,FALSE
+262,FALSE,Peter Njume,TRUE,,Peter,,Njume,,,,,,,,FALSE
+263,FALSE,Peter Taylor,TRUE,,Peter,,Taylor,,,,,,,,FALSE
+264,FALSE,Peter William Woods,TRUE,,Peter,William,Woods,,,,,,,,TRUE
+265,FALSE,Peter Zorn,TRUE,,Peter,,Zorn,,,,,,,,FALSE
+266,FALSE,Phaedra,TRUE,,Phaedra,,,,,,,,,,FALSE
+267,FALSE,Philip Moydl,TRUE,,Philip,,Moydl,,,,,,,,FALSE
+268,FALSE,Phyllis,FALSE,,Phyllis,,,,,,,,,,FALSE
+269,FALSE,PJ Sallaway,FALSE,,PJ,,Sallaway,,,,,,,,FALSE
+270,FALSE,Raina,TRUE,,Raina,,,,,,,,,,FALSE
+271,FALSE,Rene Van Wijngaarden,TRUE,,Rene,,Van Wijngaarden,,,,,,,,FALSE
+272,FALSE,Rhonda Batt,TRUE,,Rhonda,,Batt,,,,,,,,FALSE
+273,FALSE,Rhonda Roy,TRUE,,Rhonda,,Roy,,,,,,,,FALSE
+274,FALSE,Rhonda Wood,TRUE,,Rhonda,,Wood,,,,,,,,FALSE
+275,TRUE,Rhys [Valerie] del Valle,TRUE,,Rhys,,del Valle,,Rhys [Valerie] del Valle,Clifton Cann,1900-03-02,,2009-05-09,,TRUE
+276,FALSE,Rhys del Valle,FALSE,,Rhys,,del Valle,,Valerie,,,,,,FALSE
+277,FALSE,Ribca Van Wijngaarden,TRUE,,Ribca,,Van Wijngaarden,,,,,,,,FALSE
+278,FALSE,Richard Glover,TRUE,,Richard,,Glover,,,,,,,,TRUE
+279,FALSE,Richard Mitchell,TRUE,,Richard,,Mitchell,,,,,,,,FALSE
+280,FALSE,Rick Barker,TRUE,,Rick,,Barker,,,Connie Barker (Skinner),1900-03-05,,1986-08-28,,TRUE
+281,FALSE,Rita,TRUE,,Rita,,,,,,,,,,FALSE
+282,FALSE,Rita Chan,TRUE,,Rita,,Chan,,,,,,,,FALSE
+283,FALSE,Rob,TRUE,,Rob,,,,,,,,,,FALSE
+284,FALSE,Rob Burns,TRUE,,Rob,,Burns,,,,,,,,FALSE
+285,FALSE,Robert,TRUE,,Robert,,,,,,,,,,FALSE
+286,FALSE,Robert Capezzuto,TRUE,,Robert,,Capezzuto,,,,,,,,TRUE
+287,FALSE,Robin,TRUE,,Robin,,,,,,,,,,FALSE
+288,FALSE,Roger Wiles,TRUE,,Roger,,Wiles,,,,,,,,FALSE
+289,FALSE,Roger Wyatt,TRUE,,Roger,,Wyatt,,,,,,,,FALSE
+290,FALSE,Ronnie del Valle,TRUE,,Ronnie,,del Valle,,,,,,,,TRUE
+291,FALSE,Rosa Ann Carey (Dight),TRUE,,Rosa,Ann,Dight,Carey,,Cecil Ethelbert Purnell Carey,1900-02-22,,,,TRUE
+292,FALSE,Rosemary,TRUE,,Rosemary,,,,,,,,,,FALSE
+293,FALSE,Rosemary Neering,TRUE,,Rosemary,,Neering,,,,,,,,FALSE
+294,FALSE,Roy,FALSE,,Roy,,,,Richard Louis del valle,,,,,,FALSE
+295,FALSE,Roy Andrews,TRUE,,Roy,,Andrews,,,,,,,,FALSE
+296,FALSE,Russ,TRUE,,Russ,,,,,,,,,,FALSE
+297,FALSE,Ruth,FALSE,,Ruth,,,,Nonnie,,,,,,FALSE
+298,FALSE,Ryan B,FALSE,,Ryan,,B,,,,,,,,FALSE
+299,FALSE,Ryan Reed,TRUE,,Ryan,,Reed,,,,,,,,FALSE
+300,FALSE,Sam,FALSE,,Sam,,,,,,,,,,FALSE
+301,FALSE,Sam Pikikot,TRUE,,Sam,,Pikikot,,,,,,,,FALSE
+302,FALSE,Samantha Claire Blackstone,TRUE,,Samantha,Claire,Blackstone,,,James Peter Penner,1900-05-25,1980-09-23,2010-06-26,,TRUE
+303,FALSE,Sammi Barker,TRUE,,Sammi,,Barker,,,,,,,,TRUE
+304,FALSE,Sanda Glover,TRUE,,Sanda,,Glover,,,,,,,,TRUE
+305,FALSE,Sandra Capezzuto (Hunter),TRUE,,Sandra,,Hunter,Capezzuto,,Cliff Capezzuto,1900-03-01,1967-06-24,,,TRUE
+306,FALSE,Sandra Lynn Hunter,FALSE,,Sandra,Lynn,Hunter,,,,,,,,FALSE
+307,FALSE,Sarah,FALSE,,Sarah,,,,,,,,,,FALSE
+308,FALSE,Sarah Jane Wardle,TRUE,,Sarah,Jane,Wardle,,,,,,,,TRUE
+309,FALSE,Shalina Surrendra,FALSE,,Shalina,,Surrendra,,,,,,,,FALSE
+310,FALSE,Shane Waters,FALSE,,Shane,,Waters,,,,,,,,FALSE
+311,FALSE,Sharon Wardle (Hatherell),TRUE,,Sharon,,Hatherell,Wardle,,Doug Mark Wardle,1900-03-31,1960-04-30,1991-11-23,,TRUE
+312,FALSE,Sheila Wilson,FALSE,,Sheila,,Wilson,,,,,,,,FALSE
+313,FALSE,Shelby McFarlane,FALSE,,Shelby,,McFarlane,,,,,,,,FALSE
+314,FALSE,Shemiya Rudd,TRUE,,Shemiya,,Rudd,,,,,,,,FALSE
+315,FALSE,Sherry Barnes,TRUE,,Sherry,,Barnes,,,,,,,,FALSE
+316,FALSE,Shery Owen,TRUE,,Shery,,Owen,,,,,,,,FALSE
+317,FALSE,Shirley Anne Dickson (Foster),TRUE,,Shirley,Anne,Foster,Dickson,,,,,,,TRUE
+318,FALSE,Shirley Bessell,TRUE,,Shirley,,Bessell,,,,,,,,FALSE
+319,FALSE,Shotsie,FALSE,,Shotsie,,,,Rhys' Cat,,,,,,FALSE
+320,FALSE,Sid Tafler,TRUE,,Sid,,Tafler,,,,,,,,FALSE
+321,FALSE,Sidney Webster,TRUE,,Sidney,,Webster,,,,,,,,FALSE
+322,FALSE,Silverton,FALSE,Mrs,,,Silverton,,,,,,,,FALSE
+323,FALSE,Simon Walker,TRUE,,Simon,,Walker,,,,,,,,FALSE
+324,FALSE,Starr Weiss,TRUE,,Starr,,Weiss,,,,,,,,FALSE
+325,FALSE,Stephen Njume,TRUE,,Stephen,,Njume,,,,,,,,FALSE
+326,FALSE,Stephen Paul Stibbe,TRUE,,Stephen,Paul,Stibbe,,,Susan Kathleen Stibbe (Penner),1900-11-27,,1992-09-02,,TRUE
+327,FALSE,Steve Webb,TRUE,,Steve,,Webb,,,,,,,,FALSE
+328,FALSE,Stonie,FALSE,,Stonie,,,,neighbor,,,,,,FALSE
+329,FALSE,Stormy,FALSE,,Stormy,,,,The Cat,,,,,,FALSE
+330,FALSE,Susan,FALSE,,Susan,,,,Rhonda's Cousin?,,,,,,FALSE
+331,FALSE,Susan Bannerman,TRUE,,Susan,,Bannerman,,,,,,,,FALSE
+332,FALSE,Susan Kathleen Stibbe (Penner),TRUE,,Susan,Kathleen,Penner,Stibbe,,Stephen Paul Stibbe,1900-11-21,1968-09-02,1992-09-02,,TRUE
+333,FALSE,Susan Moger,TRUE,,Susan,,Moger,,,,,,,,FALSE
+334,FALSE,Suzanne Andrews,TRUE,,Suzanne,,Andrews,,,,,,,,FALSE
+335,FALSE,Suzie,FALSE,,Suzie,,,,Nana's Dog,,,,,,FALSE
+336,FALSE,Tammie,FALSE,,Tammie,,,,,,,,,,FALSE
+337,FALSE,Teresa Sankey,TRUE,,Teresa,,Sankey,,,,,,,,FALSE
+338,FALSE,Thomas Bed,TRUE,Mrs George,Thomas,,Bed,,,,,,,,FALSE
+339,FALSE,Thorsel,FALSE,Mrs,,,Thorsel,,,,,,,,FALSE
+340,FALSE,Tim Mitchell,TRUE,,Tim,,Mitchell,,,,,,,,FALSE
+341,FALSE,Timothy James Wardle,TRUE,,Timothy,James,Wardle,,,,,,,,TRUE
+342,FALSE,Tina Szgatti,FALSE,,Tina,,Szgatti,,,,,,,,FALSE
+343,FALSE,Tom Saxton,TRUE,,Tom,,Saxton,,,,,,,,FALSE
+344,FALSE,Torri Seale,TRUE,,Torri,,Seale,,,,,,,,FALSE
+345,FALSE,Tracy Cartlidge,TRUE,,Tracy,,Cartlidge,,,,,,,,FALSE
+346,FALSE,Trent Glover,TRUE,,Trent,,Glover,,,,,,,,TRUE
+347,FALSE,Trevor,TRUE,,Trevor,,,,,,,,,,FALSE
+348,FALSE,Tyson Glover,TRUE,,Tyson,,Glover,,,,,,,,TRUE
+349,FALSE,Val Austin,TRUE,,Val,,Austin,,,,,,,,FALSE
+350,FALSE,Val Wyatt,TRUE,,Val,,Wyatt,,,,,,,,FALSE
+351,FALSE,Vaughn del Valle,TRUE,,Vaughn,,del Valle,,,Caroline del Valle,1900-02-17,,,,TRUE
+352,FALSE,Vic Anderson,TRUE,,Vic,,Anderson,,,,,,,,FALSE
+353,FALSE,Victor Njume,TRUE,,Victor,,Njume,,,,,,,,FALSE
+354,FALSE,Victor Underwood,TRUE,,Victor,,Underwood,,,,,,,,FALSE
+355,FALSE,Violet Louise Pearce (Carey),TRUE,,Violet,Louise,Carey,Pearce,,,,1878-06-20,,22638,TRUE
+356,FALSE,Wayne William Norris,TRUE,,Wayne,William,Norris,,,Patrica Lynne Norris (Barker),1900-09-16,1950-01-05,1969-05-31,37612,TRUE
+357,FALSE,Wayne Yee,TRUE,,Wayne,,Yee,,,,,,,,FALSE
+358,FALSE,Wendy Topic,TRUE,,Wendy,,Topic,,,,,,,,FALSE
+359,FALSE,Wes,FALSE,,Wes,,,,,,,,,,FALSE
+360,FALSE,Wilbur Schumaker,TRUE,,Wilbur,,Schumaker,,,,,,,,FALSE
+361,FALSE,Winnie,FALSE,,Winnie,,,,,,,,,,FALSE
+362,FALSE,Young,FALSE,Mrs,,,Young,,,,,,,,FALSE
+363,FALSE,Harold Leslie Carey,,,Harold,Leslie,Carey,,,Doris Vivienne Currie,1900-12-29,1913-08-17,1936-09-04,36305,TRUE
+364,FALSE,Doris Vivienne Currie,,,Doris,Vivienne,Currie,,,Harold Leslie Carey,1900-12-28,1915-05-09,1936-09-04,28495,TRUE
+365,FALSE,Rosa Catherine Carey (Morford),,,Rosa,Catherine,Morford,Carey,,Ernest Alfred Morford,1900-12-31,1916-02-19,,28981,TRUE
+366,FALSE,Ernest Alfred Morford,,,Ernest,Alfred,Morford,,,Rosa Catherine Carey (Morford),1900-12-30,1916-12-25,,40176,TRUE
+367,FALSE,Bonnie Ovans (Carey),,,Bonnie,,Carey,Ovans,,David Ovans,1901-01-02,,,,TRUE
+368,FALSE,David Ovans,,,David,,Ovans,,,Bonnie Ovans (Carey),1901-01-01,,,,TRUE
+369,FALSE,Peggy Sheaton (Carey),,,Peggy,,Carey,Sheaton,,,,,,,TRUE
+370,FALSE,Doris Currie (Carey),,,Doris,,Carey,Currie,,,,,,,TRUE
+371,FALSE,Judy Morford,,,Judy,,Morford,,,,,,,,TRUE
+372,TRUE,Russela [Rusty] Carey,,,Russela,,Carey,,Russela [Rusty] Carey,,,,,,TRUE
+373,FALSE,Violet Louise Carey (Pearce),,,Violet,Louise,Pearce,Carey,,,,,,,TRUE
+374,FALSE,Cathy Morford,,,Cathy,,Morford,,,,,,,,TRUE
